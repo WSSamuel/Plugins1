@@ -1,0 +1,22 @@
+{
+  "name": "@filkers-wordpress/services",
+  "version": "0.0.1",
+  "description": "Filkers Wordpress Services",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "/build"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "3.9.4"
+  },
+  "scripts": {
+    "build": "tsc --outDir build",
+    "build:watch": "tsc --watch",
+    "start": "yarn build && node dist/index.js",
+    "dev": "yarn build && nodemon dist/index.js",
+    "test": "echo \"No tests specified\"",
+    "deploy": "yarn build"
+  }
+}

@@ -1,0 +1,22 @@
+.cta_wrap.container {
+    background-color: #eee;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto 20px;
+    text-align: center;
+    border: 2px dashed #000;
+}
+
+a.cta_box_btn {
+    text-decoration: none;
+    box-shadow: 1px 1px 1px 1px rgb(255, 255, 255);
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+a.cta_box_btn:hover {
+    color: #fff !important;
+	box-shadow: none !important;
+}
+

@@ -1,0 +1,192 @@
+/* ========================================================================
+ SETTINGS
+ Basic settings & mixins for the plugin...
+ ==========================================================================
+*/
+
+//Default WordPress colors
+$wp-admin-border-gray: #DFDFDF;
+$wp-admin-link-blue: #21759B;
+$label-blue-pastel: #B3DBFF;
+$label-green-pastel: #B0E7B6;
+$label-red-pastel: #FFADAD;
+$bformat-selected-bg: #F1F8FF;
+
+@mixin admin-label {
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    background: $label-blue-pastel;
+    color: white !important;
+    font-weight: normal !important;
+    display: inline-block;
+    width: 40px !important;
+    text-align: center;
+    margin-right: 5px;
+    float: right;
+    &:before {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* ========================================================================
+ BETTER FORMATS
+ Styles the new Better Formats UI for the post editor
+ ==========================================================================
+*/
+
+#bf-helpdata {
+    display: none;
+}
+
+#bf-info {
+    display: none;
+    .bf-intro {
+        padding: 7px 10px;
+        background: #f9f9f9;
+    }
+    .bf-opt {
+        display: block;
+        position: relative;
+        padding: 7px 0;
+        cursor: pointer;
+        border-bottom: 1px solid $wp-admin-border-gray !important;
+        a {
+            text-decoration: none;
+            color: black; }
+        &:last-child {
+            border-bottom: none !important;
+        }
+        &:hover,
+        &.selected {
+            background-color: $bformat-selected-bg;
+        }
+        &:hover,
+        &:hover a,
+        &.selected,
+        &.selected a {
+            color: $wp-admin-link-blue !important;
+        }
+        &.selected {
+            background-image: url('formats-selected.png');
+            background-repeat: no-repeat;
+            background-position: right top;
+            border-left: 3px solid $wp-admin-link-blue;
+        }
+        .bf-text {
+            padding-left: 57px;
+            padding-right: 30px;
+
+            .bf-title {
+                font-weight: bold;
+            }
+        }
+        .bf-icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 57px;
+            height: 45px;
+            margin-top: 2px;
+            background-image: url('formats-sprite.png');
+            background-position: 0 0;
+        }
+
+        &:hover
+        .bf-icon,
+        &.selected .bf-icon {
+            background-position-x: 51px;
+        }
+        .bf-icon.bf-aside {
+            background-position-y: -45px;
+        }
+        .bf-icon.bf-audio {
+            background-position-y: -90px;
+        }
+        .bf-icon.bf-chat {
+            background-position-y: -135px;
+        }
+        .bf-icon.bf-gallery {
+            background-position-y: -180px;
+        }
+        .bf-icon.bf-image {
+            background-position-y: -225px;
+        }
+        .bf-icon.bf-link {
+            background-position-y: -270px;
+        }
+        .bf-icon.bf-quote {
+            background-position-y: -315px;
+        }
+        .bf-icon.bf-status {
+            background-position-y: -360px;
+        }
+        .bf-icon.bf-video {
+            background-position-y: -405px;
+        }
+        a.bf-help.thickbox {
+            display: none !important;
+            text-decoration: none !important;
+            position: absolute !important;
+            top: 10px;
+            right: 5px;
+            width: 15px;
+            height: 15px;
+            border-radius: 15px;
+            font-size: 10px;
+            text-align: center;
+            background: $wp-admin-border-gray !important;
+            color: white !important;
+
+            &:hover {
+                background: $wp-admin-link-blue !important;
+            }
+        }
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:2) {
+    #bf-info .bf-opt .bf-icon {
+        background-image: url('formats-sprite-2x.png');
+        background-size: 100px 450px;
+    }
+    #bf-info .bf-opt.selected {
+        background-image: url('formats-selected-2x.png');
+        background-size: 207px 93px;
+    }
+}
+
+/* ========================================================================
+ NON-VERBOSE
+ Styles for no-verbose mode. Hide descriptions.
+ ==========================================================================
+*/
+#bf-info.no-verbose .bf-opt {
+    min-height: 35px;
+}
+#bf-info.no-verbose .bf-opt .bf-descr {
+    display: none;
+}
+
+/* ========================================================================
+ LIST TABLE LABELS
+ Styles that pretty up the special format labels for the post list table
+ ==========================================================================
+*/
+
+.post-state-format {
+    @include admin-label;
+}
+
+.post-state {
+    @include admin-label;
+    background-color: $label-green-pastel;
+}
+
+.status-draft .post-state {
+    background-color: $label-red-pastel;
+}

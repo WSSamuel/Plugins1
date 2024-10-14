@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imigino Video Connect\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/imigino-video-connect/\n"
+"Last-Translator: Publishers Toolbox <info@publisherstoolbox.com>\n"
+"Language-Team: Afrozaar <info@afrozaar.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-07-21T13:14:33+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: languages\n"
+
+#. Plugin Name of the plugin
+msgid "Imigino Video Connect"
+msgstr ""

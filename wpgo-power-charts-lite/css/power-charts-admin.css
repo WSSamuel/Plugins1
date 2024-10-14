@@ -1,0 +1,58 @@
+/* Power Charts Admin Styles */
+
+/* Styles for normal charts only */
+
+.pc-control-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pc-control-container.layout label,.pc-control-container.legend label {
+	width: 130px;
+}
+
+.pc-control-container.layout input, .pc-control-container.legend input {
+	width: 120px;
+}
+
+/* show horizontal scroll bar when not enough space to show whole chart preview */
+#wpgo-power-charts-preview .inside {
+	overflow: auto;
+}
+
+/* HIDE ELEMENTS */
+
+/* Hide the 'Status' and 'Visibility' rows in the Publish meta box. */
+#misc-publishing-actions .misc-pub-post-status, #misc-publishing-actions .misc-pub-visibility {
+	display: none;
+}
+
+/* Hide all meta boxes by default */
+.meta-box-sortables > div.postbox {
+	display: none;
+}
+
+/* Selectively display the meta boxes we need. */
+#submitdiv, #slugdiv, #authordiv, #wpgo-power-charts-data, #wpgo-power-charts-preview, #wpgo-power-charts-layout, #wpgo-power-charts-colors, #wpgo-power-charts-legend, #wpgo-power-charts-labels, #wpgo-power-charts-series-colors, #wpgo-power-charts-cpt_sc {
+	display: block;
+}
+
+/* Hide 'Screen Options' tab */
+#screen-meta-links {
+	display: none;
+}
+
+/* Tweak alignment of published date row */
+.misc-pub-section {
+	padding: 0px 10px 12px;
+}
+
+/* Hide color picker clear button manually. @todo need to find out why the color picker text boxes, and clear button aren't being hidden automatically via the color picker script. */
+.wp-picker-clear {
+	display: none !important;
+}
+
+input[type=text].wp-color-picker {
+	width: 155px !important;
+}

@@ -1,0 +1,148 @@
+/*
+This is the default style for the dropdown. Can be swapped with style.css.
+*/
+.booktaskbutton .dropdownbutton {
+	color: #777777;
+	background-image: url('icons/dropdown.gif');
+	background-repeat: no-repeat;
+	background-position: 4px 2px; 
+	padding: 1px 3px 1px 10px;
+	*padding: 2px 3px 2px 10px;
+	margin: 0px;
+	text-decoration: none;
+	border-left: 1px solid #EEEEEE;;
+	background-color: #FFFFFF;
+}
+.booktaskbutton .dropdownbuttonon {
+	color: #777777;
+	background-image: url('icons/dropdown.gif');
+	background-repeat: no-repeat;
+	background-position: 4px 2px; 
+	padding: 1px 3px 1px 10px;
+	*padding: 2px 3px 2px 10px;
+	margin: 0px;
+	text-decoration: none;
+	border-left: 1px solid #EEEEEE;
+	background-color: #EEEEEE;
+}
+.booktaskbutton .dropdownbuttonon:hover {
+	color: #777777;
+	background-image: url('icons/dropdown.gif');
+	background-repeat: no-repeat;
+	background-position: 4px 2px; 
+	padding: 1px 3px 1px 10px;
+	*padding: 2px 3px 2px 10px;
+	margin: 0px;
+	text-decoration: none;
+	/*border-left: 1px solid #EEEEEE;*/
+	background-color: #EEEEEE;
+
+}
+.booktaskbutton .dropdownbutton:hover {
+	color: #999999;
+	background-image: url('icons/dropdown.gif');
+	background-repeat: no-repeat;
+	background-position: 4px 2px; 
+	padding: 1px 3px 1px 10px;
+	*padding: 2px 3px 2px 10px;
+	margin: 0em;
+	text-decoration: none;
+	border-left: 1px solid #EEEEEE;
+}
+.booktaskbutton .bookbutton {
+	color: #0066CC;
+	background-image: url('icons/bookmark.png');
+	background-repeat: no-repeat;
+	background-position: 2px 2px; 
+	padding: 2px 3px 2px 22px;
+	margin: 0px;
+	text-decoration: none;
+}
+.booktaskbutton .bookbutton:hover {
+	color: #0099EE;
+	background-image: url('icons/bookmark.png');
+	background-repeat: no-repeat;
+	background-position: 2px 2px; 
+	padding: 2px 3px 2px 22px;
+	margin: 0em 0em 0em 0em;
+	text-decoration: none;
+}
+.booktaskbutton {
+	border: 1px solid #DDDDDD;
+	margin: 1px 1px 1px 0px;
+	padding: 1px;
+	background-color: #FFFFFF;
+}
+.booktaskbutton:hover {
+	border: 1px solid #EEEEEE;
+	margin: 0.1em 0.1em 0.1em 0em;
+}
+.taskbuttoncontainer {
+	margin: 0.3em 0em 0.3em 0em;
+	padding: 0.1em 0.1em 0.1em 0em;
+	font-size: 14px;
+	text-decoration: none;
+}
+.bookicons {
+	width: 16px;
+	height: 16px;
+}
+.dropmenudiv{
+	position:absolute;
+	border:1px solid #DDDDDD;
+	padding: 1px;
+	border-bottom-width: 0;
+	font:normal 12px Verdana;
+	z-index:100;
+	display: block;
+	left: -200px;
+	background-color: #FFFFFF;
+}
+.dropmenudiv .dropcontent{
+	width: 100%;
+	display: block;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 2px;
+	margin: 0px;
+	text-decoration: none;
+	text-align: center;
+}
+.dropmenudiv .dropcontent p{
+	margin: 5px;
+}
+.dropmenudiv .dropcontent .link img{
+	border: 1px solid #DDDDDD;
+	height: 16px;
+	width: 16px;
+	margin: 0px;
+	padding: 1px;
+}
+.nojavadropcontent p {
+	margin: 5px;
+	padding: 0px;
+}
+.nojavadropcontent .link img{
+	border: 1px solid #DDDDDD;
+	height: 16px;
+	width: 16px;
+	margin: 0px;
+	padding: 1px;
+}
+.nojavadropcontent .link{
+	margin: 0px 2px 0px 2px;
+	padding: 1px;
+}
+.dropmenudiv .dropcontent .link{
+	margin: 0px 2px 0px 2px;
+	padding: 1px;
+}
+.dropmenudiv .dropcontent .link:hover{
+	margin: 0px 2px 0px 2px;
+	padding: 1px;
+}
+.dropmenudiv .dropcontent a {
+	text-decoration: none;
+}
+.dropmenudiv .dropcontent a:hover {
+	text-decoration: underline;
+}

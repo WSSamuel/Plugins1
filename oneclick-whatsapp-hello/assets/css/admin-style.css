@@ -1,0 +1,63 @@
+@charset "UTF-8";
+.section_wa_hello {
+	font-size: 20px;
+}
+.wa_hello_input, .wa_hello-admin-select2 {
+	height: 40px !important;
+	width: 400px !important;
+	padding-left: 8px;
+}
+.wa_hello_input_areatext {
+	width: 400px !important;
+	padding-left: 8px;
+}
+.wa_hello_p_desc {
+	font-size: 14px;
+}
+.OCWAhello_pluginpage_title h1 {
+	font-weight: bold;
+}
+.tg {
+	margin-top:30px;
+	bhello-collapse:collapse;
+	bhello-spacing:0;
+	bhello:none;
+}
+.tg td{
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	padding:5px 15px 5px 5px;
+	bhello-style:solid;
+	bhello-width:0px;
+	overflow:hidden;
+	word-break:normal;
+}
+.tg th{
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	padding:5px 15px 5px 5px;
+	bhello-style:solid;
+	bhello-width:0px;
+	overflow:hidden;
+	word-break:normal;
+}
+.tg .tg-1wig{
+	font-weight:bold;
+	text-align:left;
+	vertical-align:top
+}
+.tg .tg-kiyi{
+	font-weight:bold;
+	bhello-color:inherit;
+	text-align:left
+}
+.tg .tg-fymr{
+	bhello-color:inherit;
+	text-align:left;
+	vertical-align:top
+}
+.tg .tg-0lax{
+	text-align:left;
+	vertical-align:top
+}

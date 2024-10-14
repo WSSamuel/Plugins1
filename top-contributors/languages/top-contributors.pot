@@ -1,0 +1,313 @@
+# Copyright (C) 2010 Top Contributors
+# This file is distributed under the same license as the Top Contributors package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Top Contributors 1.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/top-contributors\n"
+"POT-Creation-Date: 2011-04-04 19:12:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: functions.inc.php:98 functions.inc.php:127
+msgid "%s comment"
+msgstr ""
+
+#: functions.inc.php:99 functions.inc.php:128
+msgid "%s comments"
+msgstr ""
+
+#: functions.inc.php:155
+msgid "No commenters found."
+msgstr ""
+
+#: functions.inc.php:356 functions.inc.php:387
+msgid "%s post"
+msgstr ""
+
+#: functions.inc.php:357 functions.inc.php:388
+msgid "%s posts"
+msgstr ""
+
+#: functions.inc.php:405
+msgid "No authors found."
+msgstr ""
+
+#: functions.inc.php:566
+msgid "Top Contributor"
+msgstr ""
+
+#: functions.inc.php:580
+msgid "Settings"
+msgstr ""
+
+#: functions.inc.php:597
+msgid "from"
+msgstr ""
+
+#: top-contributors.php:65
+msgid "Display Top Contributor List."
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Top Contributors 1.4)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: top-contributors.php:71 top-contributors.php:150 top-contributors.php:375
+msgid "Top Contributors"
+msgstr ""
+
+#: top-contributors.php:104
+msgid "Title"
+msgstr ""
+
+#: top-contributors.php:108
+msgid "Show Top"
+msgstr ""
+
+#: top-contributors.php:109
+msgid "Commenters"
+msgstr ""
+
+#: top-contributors.php:110
+msgid "Authors"
+msgstr ""
+
+#: top-contributors.php:112
+msgid "Widget options can be found under Settings > Top Contributors."
+msgstr ""
+
+#: top-contributors.php:378
+msgid "How to Use Widget:"
+msgstr ""
+
+#: top-contributors.php:380
+msgid ""
+"Use the <i>Top Contributors Widget</i> to add the widget to sidebar, or "
+"paste this code into your template where you want the widget to display:"
+msgstr ""
+
+#: top-contributors.php:387
+msgid "Top Contributors Options"
+msgstr ""
+
+#: top-contributors.php:392
+msgid "Show Settings For"
+msgstr ""
+
+#: top-contributors.php:398
+msgid "Number of Contributors"
+msgstr ""
+
+#: top-contributors.php:403
+msgid "Display Count"
+msgstr ""
+
+#: top-contributors.php:410
+msgid "Display User Avatar"
+msgstr ""
+
+#: top-contributors.php:415
+msgid "Avatar Size"
+msgstr ""
+
+#: top-contributors.php:419
+msgid "Time Options"
+msgstr ""
+
+#: top-contributors.php:422
+msgid "Show comments/posts from"
+msgstr ""
+
+#: top-contributors.php:424
+msgid "All Time"
+msgstr ""
+
+#: top-contributors.php:426
+msgid "The Last"
+msgstr ""
+
+#: top-contributors.php:429
+msgid "day(s)"
+msgstr ""
+
+#: top-contributors.php:430
+msgid "week(s)"
+msgstr ""
+
+#: top-contributors.php:431
+msgid "month(s)"
+msgstr ""
+
+#: top-contributors.php:432
+msgid "year(s)"
+msgstr ""
+
+#: top-contributors.php:435
+msgid "Only This"
+msgstr ""
+
+#: top-contributors.php:437
+msgid "week"
+msgstr ""
+
+#: top-contributors.php:438
+msgid "month"
+msgstr ""
+
+#: top-contributors.php:439
+msgid "year"
+msgstr ""
+
+#: top-contributors.php:447
+msgid "Widget Format"
+msgstr ""
+
+#: top-contributors.php:450
+msgid "List Style"
+msgstr ""
+
+#: top-contributors.php:453
+msgid "Gallery Style with tooltips"
+msgstr ""
+
+#: top-contributors.php:461
+msgid "Number of columns to display contributors"
+msgstr ""
+
+#: top-contributors.php:463
+msgid "Enable KeywordLuv on user names"
+msgstr ""
+
+#: top-contributors.php:470
+msgid "Exclude Users by their Email Address (separate by comma)"
+msgstr ""
+
+#: top-contributors.php:475
+msgid "Count Comments By"
+msgstr ""
+
+#: top-contributors.php:476
+msgid "User Email Address"
+msgstr ""
+
+#: top-contributors.php:477
+msgid "Username"
+msgstr ""
+
+#: top-contributors.php:478
+msgid ""
+"Use the Username option if users are not required to enter email address "
+"when commenting."
+msgstr ""
+
+#: top-contributors.php:481
+msgid "Link Attribute Options"
+msgstr ""
+
+#: top-contributors.php:482
+msgid "None"
+msgstr ""
+
+#: top-contributors.php:489
+msgid "Link Authors to Author Page"
+msgstr ""
+
+#: top-contributors.php:495
+msgid "Include/Exclude comment/post counts from Categories"
+msgstr ""
+
+#: top-contributors.php:502
+msgid "Include Categories"
+msgstr ""
+
+#: top-contributors.php:503
+msgid "Exclude Categories"
+msgstr ""
+
+#: top-contributors.php:522
+msgid "Save Options"
+msgstr ""
+
+#: top-contributors.php:529
+msgid "Top Contributor Icon Options"
+msgstr ""
+
+#: top-contributors.php:535
+msgid "Top Contributor Icon"
+msgstr ""
+
+#: top-contributors.php:537
+msgid "Show \"Top Contributor Icon\" next to Username in comments."
+msgstr ""
+
+#: top-contributors.php:538
+msgid ""
+"This option gives your loyal blog followers and contributors some "
+"recognition by adding a little icon next to their name in all of their "
+"comments."
+msgstr ""
+
+#: top-contributors.php:539
+msgid ""
+"By default this is a Star, however it can be changed to any Icon you want by "
+"uploading the new image to the plugin image directory <code>../plugins/top-"
+"contributors/images</code>."
+msgstr ""
+
+#: top-contributors.php:543
+msgid "Icon Image"
+msgstr ""
+
+#: top-contributors.php:548
+msgid "Comment Threshold"
+msgstr ""
+
+#: top-contributors.php:550
+msgid ""
+"Use Comment Threshold value to display Icon next to commenters that have X "
+"amount of comments or more. Setting to 0 will use default setting of top 10 "
+"commenters"
+msgstr ""
+
+#: top-contributors.php:551
+msgid "Advanced Threshold Use"
+msgstr ""
+
+#: top-contributors.php:553
+msgid ""
+"You can assign multiple thresholds for comment counts by separating "
+"threshold counts by commas."
+msgstr ""
+
+#: top-contributors.php:554
+msgid ""
+"For example by entering: \"<b>10,30,100</b>\", at 10 comments, the user will "
+"get 1 star, at 30 comments = 2 stars, and 100 comments = 3 stars."
+msgstr ""
+
+#: top-contributors.php:555
+msgid ""
+"There is no limit to the number of comment count thresholds you can have."
+msgstr ""
+
+#: top-contributors.php:561
+msgid "Save Icon Options"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://justmyecho.com/2010/07/top-contributors-plugin-wordpress/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Display your top commenters/authors in a widget."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Robin Dalton"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://justmyecho.com"
+msgstr ""

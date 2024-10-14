@@ -1,0 +1,15 @@
+
+.irdslider-contenedor1 {display:flex; flex-direction: row;}
+.irdslider-tarjeta {display:flex; flex-direction: column; }
+.irdslider-div-img {width: 270px !important;  max-width: 270px !important; margin: auto; padding:10px; padding-bottom: 20px; background-color: #404040; border-radius: 10px;}
+.irdslider-img {width: 250px !important; max-width: 250px !important;}
+.irdslider-div-txt {display: flex; flex-direction: column; padding-left: 3em; padding-right: 3em;}
+.irdslider-div-titulo {text-align: center;font-size: 2em }
+.irdslider-div-subtitulo {text-align: center; font-size: 1.3em; font-weight: bold}
+.irdslider-div-texto {text-align: center;  }
+
+@media screen and (min-width: 600px)  {
+
+.irdslider-tarjeta {display:flex; flex-direction: row; }
+
+}

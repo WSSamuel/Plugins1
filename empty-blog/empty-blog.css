@@ -1,0 +1,20 @@
+div.empty_blog_field{ padding-bottom: 8px; }
+
+div#empty_blog_controls p.warn {
+    border: 1px solid #000;
+    padding: 8px;
+    width: 60%;
+    background-color: #FABECD;
+    color: #000;
+    font-size: 1.3em;
+    line-height: 170%;
+    border-radius: 6px 6px 6px 6px;
+  }
+
+div.empty_blog_field_group {
+    border: 1px solid #bbb;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px 6px 6px 6px;
+    width: 60%;
+  }

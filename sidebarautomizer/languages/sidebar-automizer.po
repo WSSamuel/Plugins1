@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: myStickymenu\n"
+"POT-Creation-Date: 2014-08-12 00:05+0100\n"
+"PO-Revision-Date: 2014-08-12 00:05+0100\n"
+"Last-Translator: Damir Babojelic <jahmirda@gmail.com>\n"
+"Language-Team: TFN <jahmirda@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../sidebar-automizer.php:66
+msgid "sidebarAutomizer Settings"
+msgstr ""
+
+#: ../sidebar-automizer.php:95
+msgid "sidebarAutomizer Options"
+msgstr ""
+
+#: ../sidebar-automizer.php:101
+msgid "Content Class or ID"
+msgstr ""
+
+#: ../sidebar-automizer.php:108
+msgid "Sidebar Class or ID"
+msgstr ""
+
+#: ../sidebar-automizer.php:115
+msgid "Add extra height to Sidebar"
+msgstr ""
+
+#: ../sidebar-automizer.php:122
+msgid "Define Element to remove"
+msgstr ""
+
+#: ../sidebar-automizer.php:180
+msgid ""
+"This little plugin will remove last widget or widgets from sidebar if "
+"content area height is smaller than sidebar area height (while sidebar "
+"height > content height + extra height => remove last widget). Defaults "
+"works in Twentythirteen theme, for other themes you will need to define "
+"content and sidebar class or id and define element to remove if different."
+msgstr ""
+
+#: ../sidebar-automizer.php:192
+msgid ""
+"This must be content Class or ID (it will define max height for your sidebar "
+"area)."
+msgstr ""
+
+#: ../sidebar-automizer.php:202
+msgid "Class or ID of the sidebar element that contains widgets."
+msgstr ""
+
+#: ../sidebar-automizer.php:212
+msgid ""
+"px. In some cases you want your sidebar a bit higher than content. if that's "
+"the case add number of pixels here."
+msgstr ""
+
+#: ../sidebar-automizer.php:222
+msgid ""
+"It can be aside, div, or whatever element that your theme uses to display "
+"single widget. Wrong setting can cause unresponsive script behaviour in "
+"frontend."
+msgstr ""
+
+#~ msgid "mymessage2"
+#~ msgstr "Bye"

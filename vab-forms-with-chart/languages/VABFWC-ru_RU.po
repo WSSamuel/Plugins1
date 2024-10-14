@@ -1,0 +1,838 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Forms with chart from VAB\n"
+"POT-Creation-Date: 2024-07-04 15:27+0500\n"
+"PO-Revision-Date: 2024-07-04 15:28+0500\n"
+"Last-Translator: \n"
+"Language-Team: VAB Team <m@it-vab.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: vab-forms-with-chart.php\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/admin.php:11
+msgid "Forms with Charts"
+msgstr "Формы с Диаграммами"
+
+#: admin/admin.php:12
+msgid "Forms"
+msgstr "Формы"
+
+#: admin/admin.php:13 admin/admin.php:14 includes/controller.php:167
+msgid "Create Form"
+msgstr "Создать форму"
+
+#: admin/admin.php:15 admin/admin.php:16
+msgid "Edit Form"
+msgstr "Редактировать форму"
+
+#: admin/admin.php:17
+msgid "New Form"
+msgstr "Новая форма"
+
+#: admin/admin.php:18
+msgid "Look"
+msgstr "Посмотреть"
+
+#: admin/admin.php:19
+msgid "Look Form"
+msgstr "Посмотреть форму"
+
+#: admin/admin.php:20
+msgid "Search a form"
+msgstr "Искать форму"
+
+#: admin/admin.php:21
+msgid "Not found"
+msgstr "Не найдено"
+
+#: admin/admin.php:45
+msgid ""
+"Copy the shortcode below and paste it into your posts, pages or text widget "
+"content"
+msgstr ""
+"Скопируйте шорткод ниже и вставьте его в свои записи, страницы или "
+"содержимое текстового виджета"
+
+#: admin/admin.php:78 admin/admin.php:91
+msgid "Russian alphabet, some characters and spaces are prohibited!"
+msgstr "Русский алфавит, некоторые символы и пробел запрещены!"
+
+#: admin/admin.php:89
+msgid "Specify ID for the question. Use only the Latin alphabet"
+msgstr ""
+"Укажите идентификатор для вопроса. Используйте только латинский алфавит"
+
+#: admin/admin.php:95
+msgid "Specify ID"
+msgstr "Укажите идентификатор"
+
+#: admin/admin.php:96 admin/admin.php:252
+msgid "Formulate your question"
+msgstr "Сформулируйте вопрос\t"
+
+#: admin/admin.php:103 admin/admin.php:260
+msgid "Minimum value"
+msgstr "Минимальное значение"
+
+#: admin/admin.php:106 admin/admin.php:263
+msgid "Maximum value"
+msgstr "Максимальное значение"
+
+#: admin/admin.php:111 admin/admin.php:264
+msgid "Specify step"
+msgstr "Укажите шаг"
+
+#: admin/admin.php:117 admin/admin.php:159 admin/admin.php:282
+msgid "Specify option answer"
+msgstr "Укажите вариант ответа\t"
+
+#: admin/admin.php:119 admin/admin.php:162 admin/admin.php:285
+msgid "Pick a color on the chart"
+msgstr "Выберите цвет на диаграмме"
+
+#: admin/admin.php:125 admin/admin.php:294
+msgid "Add an answer option"
+msgstr "Добавить вариант ответа\t"
+
+#: admin/admin.php:129 admin/admin.php:276
+msgid "Answer options"
+msgstr "Варианты ответов"
+
+#: admin/admin.php:129 admin/admin.php:277
+msgid "Color on chart"
+msgstr "Цвет на диаграмме\t"
+
+#: admin/admin.php:142 admin/admin.php:301
+msgid "Add «Other» textbox to the end?"
+msgstr "Добавить в конец текстовое поле «Другое»?"
+
+#: admin/admin.php:142 admin/admin.php:298 admin/admin.php:304
+msgid "Do not add"
+msgstr "Не добавлять"
+
+#: admin/admin.php:142 admin/admin.php:298 admin/admin.php:305
+msgid "Add"
+msgstr "Добавлять"
+
+#: admin/admin.php:150
+msgid "No type selected"
+msgstr "Не выбран тип"
+
+#: admin/admin.php:190
+msgid "Shortcode copied to clipboard"
+msgstr "Шорткод скопирован в буфер"
+
+#: admin/admin.php:216
+msgid "Saved List:"
+msgstr "Сохраненный список:"
+
+#: admin/admin.php:217
+msgid "List preparation block:"
+msgstr "Блок подготовки списка:"
+
+#: admin/admin.php:221
+msgid "Text"
+msgstr "Текст"
+
+#: admin/admin.php:222
+msgid "Link"
+msgstr "Ссылка"
+
+#: admin/admin.php:223
+msgid "Phone"
+msgstr "Телефон"
+
+#: admin/admin.php:224
+msgid "Email"
+msgstr "Email"
+
+#: admin/admin.php:225 includes/SHORTCODE.php:179
+#: includes/VABFWC_CLASS/VABFWC_Class_Adm.php:70
+msgid "Date"
+msgstr "Дата"
+
+#: admin/admin.php:226
+msgid "Number"
+msgstr "Номер"
+
+#: admin/admin.php:227
+msgid "Range"
+msgstr "Слайдер"
+
+#: admin/admin.php:228
+msgid "Radio buttons"
+msgstr "Радио кнопки"
+
+#: admin/admin.php:229
+msgid "Checkboxes"
+msgstr "Чекбоксы"
+
+#: admin/admin.php:230
+msgid "Drop-down list"
+msgstr "Раскрывающийся список"
+
+#: admin/admin.php:231
+msgid "Text area"
+msgstr "Текстовая область"
+
+#: admin/admin.php:244
+msgid "Up"
+msgstr "Вверх"
+
+#: admin/admin.php:245
+msgid "Down"
+msgstr "Вниз"
+
+#: admin/admin.php:249
+msgid "Collapse/Expand block"
+msgstr "Свернуть / Развернуть блок"
+
+#: admin/admin.php:251
+msgid "Specify an identifier"
+msgstr "Укажите идентификатор"
+
+#: admin/admin.php:326
+msgid "Choose type"
+msgstr "Выбери тип"
+
+#: admin/admin.php:328
+msgid "Add Question"
+msgstr "Добавить вопрос"
+
+#: admin/admin.php:338
+msgid "Additional options"
+msgstr "Дополнительные опции"
+
+#: admin/admin.php:401
+msgid "Control of log files"
+msgstr "Управление лог файлами"
+
+#: admin/admin.php:405 admin/admin.php:413
+msgid "Write form responses to log files"
+msgstr "Записывать ответы формы в лог файлы"
+
+#: admin/admin.php:413
+msgid "Write form responses to csv files"
+msgstr "Запись ответов формы в CSV-файлы"
+
+#: admin/admin.php:413
+msgid "Option required"
+msgstr "Требуется опция"
+
+#: admin/admin.php:427
+msgid "Show the CSV files only for"
+msgstr "Показывать файлы CSV только для"
+
+#: admin/admin.php:434
+msgid "Don`t write date to log files"
+msgstr "Не записывать дату в лог-файлы"
+
+#: admin/admin.php:442
+msgid "Don`t write IP address to log files"
+msgstr "Не записывать IP-адрес в лог-файлы"
+
+#: admin/admin.php:450
+msgid "Don`t write user Agent to log files"
+msgstr "Не записывать пользовательский агент в лог-файлы"
+
+#: admin/admin.php:458
+msgid "Block access to log files with htaccess"
+msgstr "Блокировать доступ к лог файлам с помощью htaccess"
+
+#: admin/admin.php:463
+msgid "Settings of charts"
+msgstr "Настройки диаграммам"
+
+#: admin/admin.php:467
+msgid "Don`t show chart"
+msgstr "Не показывать диаграмму"
+
+#: admin/admin.php:475
+msgid "Always show the charts at the end of the questionnaire"
+msgstr "Всегда показывать диаграммы в конце анкеты"
+
+#: admin/admin.php:489
+msgid "Show the charts only for"
+msgstr "Показывать диаграммы только для"
+
+#: admin/admin.php:496
+msgid "Hide the total number of completed questionnaires"
+msgstr "Скрыть общее число заполнения анкеты"
+
+#: admin/admin.php:504
+msgid "Show total answers per question above pie chart"
+msgstr "Показывать общее число ответов на вопрос над круговой диаграммой"
+
+#: admin/admin.php:512
+msgid "Show the number of answers for each question above the pie chart"
+msgstr "Показывать количество ответов на каждый вопрос над круговой диаграммой"
+
+#: admin/admin.php:520
+msgid "Hide the total selection number of each checkbox"
+msgstr "Спрятать общее число выбора каждого чекбокса"
+
+#: admin/admin.php:525
+msgid "Settings of attachments"
+msgstr "Управление вложениями"
+
+#: admin/admin.php:529
+msgid "Add the ability to send a file"
+msgstr "Добавить возможность отправить файл"
+
+#: admin/admin.php:537
+msgid "Multiple File Upload"
+msgstr "Загрузка нескольких файлов"
+
+#: admin/admin.php:545
+msgid "Total files size"
+msgstr "Общий размер файлов"
+
+#: admin/admin.php:553
+msgid "Allowed extensions. Separate by comma"
+msgstr "Разрешенные расширения. Разделяйте запятой"
+
+#: admin/admin.php:558
+msgid "Email settings"
+msgstr "Настройки электронных сообщений"
+
+#: admin/admin.php:562
+msgid "Table title"
+msgstr "Заголовок таблицы"
+
+#: admin/admin.php:570
+msgid "Send a copy of the form to the admin"
+msgstr "Отправлять копию формы админу"
+
+#: admin/admin.php:570
+msgid "The field below must be filled"
+msgstr "Поле ниже должно быть заполнено"
+
+#: admin/admin.php:578
+msgid "Email to send the form to"
+msgstr "Почта, на которую отправлять форму"
+
+#: admin/admin.php:586
+msgid ""
+"Sending an email to a user. You can activate the receipt of a copy of the "
+"letter by e-mail for the user who submitted the form.The user`s email will "
+"be taken from the «email» form field"
+msgstr ""
+"Отправка электронной почты пользователю. Вы можете активировать получении "
+"копии письма по электронной почте для пользователя, отправившего форму. "
+"Электронная почта пользователя будет взята из поля формы «email»"
+
+#: admin/admin.php:594
+msgid "Do not send emails"
+msgstr "Не отправлять электронные письма"
+
+#: admin/admin.php:762
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: admin/admin.php:799 admin/admin.php:800 admin/admin.php:810
+msgid "About release"
+msgstr "О выпуске"
+
+#: admin/admin.php:815
+msgid "Plugin Name"
+msgstr "Название плагина"
+
+#: admin/admin.php:823
+msgid "Description"
+msgstr "Описание"
+
+#: admin/admin.php:826
+msgid ""
+"Simple Plugin for creating forms, inquirer and questionnaires with the "
+"ability to display the results in the form of charts"
+msgstr ""
+"Простой плагин для создания форм, опросников и анкет с возможностью "
+"отображения результатов в виде диаграмм"
+
+#: admin/admin.php:831
+msgid "Author"
+msgstr "Автор"
+
+#. Author of the plugin/theme
+#: admin/admin.php:834
+msgid "Vladimir Anatol`evich Brumer"
+msgstr "Владимир Анатольевич Брумер"
+
+#: admin/admin.php:839
+msgid "Version"
+msgstr "Версия"
+
+#: admin/admin.php:848
+msgid "Version Wordpress at least"
+msgstr "Версия Wordpress не ниже"
+
+#: admin/admin.php:856
+msgid "Tested Wordpress up to"
+msgstr "Совместим вплоть до"
+
+#: admin/admin.php:864
+msgid "Requires PHP"
+msgstr "Требуется PHP"
+
+#: admin/admin.php:872
+msgid "Plugin URI"
+msgstr "URI плагина"
+
+#: admin/admin.php:882
+msgid "GitHub"
+msgstr "GitHub"
+
+#: admin/admin.php:892
+msgid "Donate link"
+msgstr "Ссылка для поддержки"
+
+#: admin/admin.php:902
+msgid "New in version"
+msgstr "Новое в версии"
+
+#: admin/admin.php:905
+msgid "Fixes for compatibility with Wordpress 6.6"
+msgstr "Исправления для совместимости с Wordpress 6.6"
+
+#: admin/admin.php:906
+msgid ""
+"Fixes for compatibility with PHP 8.1 and higher (replacing "
+"FILTER_SANITIZE_STRING)"
+msgstr ""
+"Исправления для совместимости с PHP 8.1 и выше (замена "
+"FILTER_SANITIZE_STRING)"
+
+#: admin/admin.php:907
+msgid ""
+"Fixed the work of the form option (sending the form by default to the Email "
+"field in the completed form)"
+msgstr ""
+"Исправлена работа опции формы (оправка формы по умолчанию на поле Email в "
+"заполненой форме)"
+
+#: includes/SHORTCODE.php:85
+msgid "Check entered data"
+msgstr "Проверьте введенные данные"
+
+#: includes/SHORTCODE.php:91
+msgid "Uploaded file size bytes/Mb"
+msgstr "Размер загруженного файла байт/Mb"
+
+#: includes/SHORTCODE.php:113
+msgid "Confirm the reset by checking the box"
+msgstr "Подтвердите сброс, поставив галочку"
+
+#: includes/SHORTCODE.php:145
+msgid "Message from the site"
+msgstr "Сообщение с сайта"
+
+#: includes/SHORTCODE.php:149
+msgid "Form"
+msgstr "Форма"
+
+#: includes/SHORTCODE.php:155
+msgid "Questionnaire content"
+msgstr "Содержание анкеты"
+
+#: includes/SHORTCODE.php:156
+msgid "IP address"
+msgstr "IP-адрес"
+
+#: includes/SHORTCODE.php:158
+msgid "The form author Vladimir Anatolyevich Brumer"
+msgstr "Автор формы Владимир Анатольевич Брумер"
+
+#: includes/SHORTCODE.php:167
+msgid "Question"
+msgstr "Вопрос"
+
+#: includes/SHORTCODE.php:168
+msgid "Possible answer"
+msgstr "Вариант ответа"
+
+#: includes/SHORTCODE.php:169
+msgid "Your own answer"
+msgstr "Свой вариант ответа"
+
+#: includes/SHORTCODE.php:177
+msgid "Title not specified"
+msgstr "Заголовок не указан"
+
+#: includes/SHORTCODE.php:178
+msgid "Title the form"
+msgstr "Заголовок формы"
+
+#: includes/SHORTCODE.php:439
+msgid "Links not allowed"
+msgstr "Ссылки запрещены"
+
+#: includes/SHORTCODE.php:603
+msgid " One or more files exceed the allowed size "
+msgstr " Один или несколько файлов превышают допустимый размер "
+
+#: includes/SHORTCODE.php:603 includes/SHORTCODE.php:624
+msgid " Мб"
+msgstr "Mb"
+
+#: includes/SHORTCODE.php:608
+msgid " One or more files are not in a valid format"
+msgstr " Один или несколько файлов имеют недопустимый формат"
+
+#: includes/SHORTCODE.php:609
+msgid "File"
+msgstr "Файл"
+
+#: includes/SHORTCODE.php:610
+msgid "have extension"
+msgstr "имеет расширение"
+
+#: includes/SHORTCODE.php:624
+msgid " The total size of files exceeds the allowed size "
+msgstr " Общий размер файлов превышает допустимый размер"
+
+#: includes/SHORTCODE.php:670
+msgid "Data array is empty"
+msgstr "Массив с данными пуст"
+
+#: includes/SHORTCODE.php:676
+msgid "Text input field..."
+msgstr "Поле для ввода текста..."
+
+#: includes/SHORTCODE.php:677
+msgid "Write your answer"
+msgstr "Напишите Ваш вариант ответа"
+
+#: includes/SHORTCODE.php:679
+msgid "Your message was successfully sent"
+msgstr "Ваше сообщение успешно отправлено"
+
+#: includes/SHORTCODE.php:680
+msgid "Message not sent"
+msgstr "Сообщение не отправлено"
+
+#: includes/SHORTCODE.php:686
+msgid "The results are displayed at the end of the questionnaire"
+msgstr "Результаты отображаются в конце анкеты"
+
+#: includes/SHORTCODE.php:686
+msgid ""
+"Results will be displayed after filling out and sending the questionnaire"
+msgstr "Результаты будут отображены после заполнения и отправки анкеты"
+
+#: includes/SHORTCODE.php:722
+msgid "URL input field"
+msgstr "Поле для ввода URL"
+
+#: includes/SHORTCODE.php:728
+msgid "Phone input field"
+msgstr "Поле для ввода телефона"
+
+#: includes/SHORTCODE.php:734
+msgid "Email input field"
+msgstr "Поле для ввода Email"
+
+#: includes/SHORTCODE.php:740
+msgid "Input field type «Date»"
+msgstr "Тип поля для ввода «Дата»"
+
+#: includes/SHORTCODE.php:746
+msgid "Input field type «Range»"
+msgstr "Тип поля ввода «Слайдер»"
+
+#: includes/SHORTCODE.php:746
+msgid "Input field type «Number»"
+msgstr "Тип поля ввода «Номер»"
+
+#: includes/SHORTCODE.php:769
+msgid "Input field type «Dropdown list»"
+msgstr "Тип поля «Раскрывающийся список»"
+
+#: includes/SHORTCODE.php:771
+msgid "Choose a variant"
+msgstr "Выберите вариант"
+
+#: includes/SHORTCODE.php:800 includes/SHORTCODE.php:804
+#: includes/SHORTCODE.php:805 includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:52
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:85
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:97
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:115
+msgid "Other"
+msgstr "Другое"
+
+#: includes/SHORTCODE.php:827
+msgid " Sorry, the message was not sent."
+msgstr " Извините, сообщение не было отправлено."
+
+#: includes/SHORTCODE.php:831 includes/controller.php:14
+msgid "Select files"
+msgstr "Выберите файлы"
+
+#: includes/SHORTCODE.php:832
+msgid "Valid File Format"
+msgstr "Допустимый формат файлов"
+
+#: includes/SHORTCODE.php:845
+msgid "Resetting the filled fields"
+msgstr "Сброс заполненных полей"
+
+#: includes/SHORTCODE.php:847 includes/VABFWC_CLASS/VABFWC_Class_Adm.php:59
+msgid "Send"
+msgstr "Отправить"
+
+#: includes/SHORTCODE.php:878
+msgid "CSV log files"
+msgstr "Лог файлы CSV"
+
+#: includes/SHORTCODE.php:896 includes/VABFWC_CLASS/VABFWC_Class_Adm.php:49
+msgid "Download"
+msgstr "Скачать"
+
+#: includes/SHORTCODE.php:911
+msgid "Table deleted successfully"
+msgstr "Таблица успешно удалена"
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Adm.php:51
+msgid "Information for administrator"
+msgstr "Информация для администратора"
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Adm.php:56
+#: includes/VABFWC_CLASS/VABFWC_Class_Adm.php:57
+msgid "Reset table"
+msgstr "Сброс таблицы"
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Adm.php:59
+msgid "Are you sure?"
+msgstr "Вы Уверены?"
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Adm.php:69
+msgid "IP - adress"
+msgstr "IP - адрес"
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Adm.php:71
+msgid "OS and browser"
+msgstr "ОС и браузер"
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:21
+msgid "Answers to the question"
+msgstr "Ответов на вопрос"
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:22
+msgid "Answers"
+msgstr "Ответов"
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:230
+msgid "Questionnaire completed"
+msgstr "Анкета заполнена"
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:230
+msgid "times"
+msgstr "раз"
+
+#: includes/controller.php:15
+msgid "Selected files"
+msgstr "Выбрано файлов"
+
+#: includes/controller.php:107
+msgid "Form name"
+msgstr "Название формы"
+
+#: includes/controller.php:108
+msgid "is empty"
+msgstr "не заполнено"
+
+#: includes/controller.php:109
+msgid "Specify an ID for the form"
+msgstr "Укажите идентификатор для формы"
+
+#: includes/controller.php:110
+msgid "Specify an class for the form"
+msgstr "Укажите класс для формы"
+
+#: includes/controller.php:111
+msgid "Select form"
+msgstr "Выберите форму"
+
+#: includes/controller.php:112
+msgid "Id to a form"
+msgstr "Идентификатор формы"
+
+#: includes/controller.php:113
+msgid "Сlass to a form"
+msgstr "Класс формы"
+
+#: includes/controller.php:114
+msgid "Choose a tag for the title"
+msgstr "Выберите тег для заголовка"
+
+#: includes/controller.php:115
+msgid "Title to the chart"
+msgstr "Заголовок для диаграммы"
+
+#: includes/controller.php:116
+msgid "Display form charts"
+msgstr "Отображение диаграмм формы"
+
+#: includes/controller.php:117
+msgid "Specify an title for the chart"
+msgstr "Укажите заголовок для диаграммы"
+
+#: includes/controller.php:118
+msgid "Сlass for the tag in title"
+msgstr "Класс для тега в заголовке"
+
+#: includes/controller.php:119
+msgid "Specify an class for the tag"
+msgstr "Укажите класс для тега"
+
+#. Plugin Name of the plugin/theme
+#: includes/controller.php:157
+msgid "Forms with chart from VAB"
+msgstr "Формы с диаграммой от VAB"
+
+#. Plugin URI of the plugin/theme
+msgid "https://it-vab.ru/vab-forms-with-chart"
+msgstr "https://it-vab.ru/vab-forms-with-chart"
+
+#. Description of the plugin/theme
+msgid ""
+"Simple Plugin for creating forms, inquirer and questionnaires with the "
+"ability to display the results in the form of charts."
+msgstr ""
+"Простой плагин для создания форм, опросников и анкет с возможностью "
+"отображения результатов в виде диаграмм."
+
+#. Author URI of the plugin/theme
+msgid "https://it-vab.ru/"
+msgstr "https://it-vab.ru/"
+
+#~ msgid "Small changes for better compatibility with Wordpress 6.1"
+#~ msgstr "Небольшие изменения для лучшей совместимости с WordPress 6.1"
+
+#~ msgid "Small changes in HTML markup"
+#~ msgstr "Небольшие изменения в HTML разметке"
+
+#~ msgid ""
+#~ "Added the ability to upload data to a CSV file. Files will automatically "
+#~ "be split by month"
+#~ msgstr ""
+#~ "Добавлена возможность выгружать данные в CSV файл. Файлы автоматически "
+#~ "будут разбиты по месяцам"
+
+#~ msgid "Added options: «Manage the display of CSV files for users»"
+#~ msgstr ""
+#~ "Добавлены опции: «Управление отображением CSV файлов для пользователей»"
+
+#~ msgid ""
+#~ "Added the ability to hide/show the chart to specific users (optional)"
+#~ msgstr ""
+#~ "Добавлена возможность скрывать/показывать диаграмму конкретным "
+#~ "пользователям (опционно)"
+
+#~ msgid ""
+#~ "Added option: «Show the number of answers for each question above the pie "
+#~ "chart»"
+#~ msgstr ""
+#~ "Добавлена опция: «Показывать количество ответов на каждый вопрос над "
+#~ "круговой диаграммой»"
+
+#~ msgid "Open"
+#~ msgstr "Открыть"
+
+#~ msgid "Added ability to hide/show log files to other users (optional)"
+#~ msgstr ""
+#~ "Добавлена возможность скрывать/показывать лог файлы другим пользователям "
+#~ "(опционно)"
+
+#~ msgid "Show the charts only for the administrators"
+#~ msgstr "Показывать диаграммы только для администраторов"
+
+#~ msgid "Styling additional options"
+#~ msgstr "Стилизация дополнительных опций"
+
+#~ msgid "Added option - ability to change table header"
+#~ msgstr "Добавлена опция - возможность изменить заголовок таблицы"
+
+#~ msgid "Fixed - small edits for better compatibility of gutenberg blocks;"
+#~ msgstr ""
+#~ "Исправлено — небольшие правки для лучшей совместимости блоков Гутенберга"
+
+#~ msgid "Added an option that cancels sending emails"
+#~ msgstr "Добавлена опция, которая отменяет отправку писем"
+
+#~ msgid "Added classes and IDs to the form elements"
+#~ msgstr "Добавлены классы и идентификаторы к элементам формы"
+
+#~ msgid "Added the ability to send a copy of an email to a user"
+#~ msgstr ""
+#~ "Добавлена возможность отправки копии электронного письма пользователю"
+
+#~ msgid "Added Gutenberg blocks for quick and easy output of forms and charts"
+#~ msgstr ""
+#~ "Добавлены блоки гутенберга для быстрого и удобного вывода форм и диаграмм"
+
+#~ msgid "Tag for the title"
+#~ msgstr "Тег для заголовка"
+
+#~ msgid "Added a submenu where you can read about the current release"
+#~ msgstr "Добавлено подменю, в котором можно ознакомиться о текущем выпуске"
+
+#~ msgid ""
+#~ "Added attributes for shortcode. Now you can add any id and class to a form"
+#~ msgstr ""
+#~ "Добавлены атрибуты для шорткода. Теперь вы можете добавить в форму любой "
+#~ "идентификатор и класс"
+
+#~ msgid "Example"
+#~ msgstr "Пример"
+
+#~ msgid "Specify an tag for the title"
+#~ msgstr "Укажите тег для заголовка"
+
+#~ msgid "Form name is empty"
+#~ msgstr "Имя формы не заполнено"
+
+#~ msgid "Fixed - notification about undefined variable"
+#~ msgstr "Исправлено - уведомление о неопределенной переменной"
+
+#~ msgid "Always show the form at the end of the questionnaire"
+#~ msgstr "Всегда показывать форму в конце анкеты"
+
+#~ msgid "Forms && Charts"
+#~ msgstr "Формы и Диаграммы"
+
+#~ msgid ""
+#~ " Sorry, the message was not sent. One or more files exceed the allowed "
+#~ "size "
+#~ msgstr ""
+#~ " Извините, сообщение не отправлено. Один или несколько файлов превышает "
+#~ "допустимый размер "
+
+#~ msgid ""
+#~ " Sorry, the message was not sent. One or more files are not in a valid "
+#~ "format"
+#~ msgstr ""
+#~ " Извините, сообщение не было отправлено. Один или несколько файлов имеют "
+#~ "недопустимый формат"
+
+#~ msgid "Specify ID for the question. Use only the Latin alphabet and numbers"
+#~ msgstr ""
+#~ "Укажите идентификатор для вопроса. Используйте только латинский алфавит и "
+#~ "цифры"
+
+#~ msgid "Do not keep track of the chart"
+#~ msgstr "Не вести учет диаграммы"
+
+#~ msgid "https://it-vab.ru/update_vab_forms_with_chart"
+#~ msgstr "https://it-vab.ru/update_vab_forms_with_chart"

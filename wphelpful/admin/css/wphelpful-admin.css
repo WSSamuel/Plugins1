@@ -1,0 +1,76 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+@media (min-width: 960px) {
+
+  .wphelpful-settings {
+    margin-right: 350px;
+  }
+
+  .wphelpful-settings .content {
+    width: 100%;
+    float: left;
+  }
+
+  .wphelpful-settings .content input[type=color], 
+  .wphelpful-settings .content input[type=text], 
+  .wphelpful-settings .content select, 
+  .wphelpful-settings .content textarea {
+    width: 80%;
+  }
+
+  .wphelpful-settings .sidebar {
+    float: right;
+    margin-right: -350px;
+    width: 330px;
+    padding-right: 20px;
+  }
+
+}
+
+.column-completable a {
+  display: block;
+}
+
+.wphelpful-settings .content select {
+  max-width: 400px;
+}
+
+.wphelpful-settings .wp-picker-container {
+    display: inline-block;
+}
+
+.wphelpful-settings .wphelpful-checkbox-container {
+  font-weight: 600;
+}
+
+.wphelpful-settings label.radio-label {
+  margin-right: 20px;
+}
+
+.wphelpful-settings .wphelpful-checkbox-container input {
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+.wphelpful-settings .wphelpful-radio-container {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.wphelpful-settings .sidebar ul {
+  list-style: inside disc;
+}
+
+.wphelpful-settings .postbox h2 {
+  font-size: 14px;
+  padding: 8px 12px;
+  margin: 0;
+  line-height: 1.4;
+  border-bottom: 1px solid #eee;
+  -webkit-user-select: none;
+}

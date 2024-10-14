@@ -1,0 +1,14 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.powered-by-wordpress {
+    display: none!important;
+}
+
+@media (min-width: 700px) {
+    .powered-by-wordpress.show {
+        display: block!important;
+    }
+}

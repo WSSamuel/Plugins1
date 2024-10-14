@@ -1,0 +1,704 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Forms with chart from VAB\n"
+"POT-Creation-Date: 2024-07-04 15:27+0500\n"
+"PO-Revision-Date: 2022-02-22 15:05+0500\n"
+"Last-Translator: \n"
+"Language-Team: VAB Team <m@it-vab.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: vab-forms-with-chart.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/admin.php:11
+msgid "Forms with Charts"
+msgstr ""
+
+#: admin/admin.php:12
+msgid "Forms"
+msgstr ""
+
+#: admin/admin.php:13 admin/admin.php:14 includes/controller.php:167
+msgid "Create Form"
+msgstr ""
+
+#: admin/admin.php:15 admin/admin.php:16
+msgid "Edit Form"
+msgstr ""
+
+#: admin/admin.php:17
+msgid "New Form"
+msgstr ""
+
+#: admin/admin.php:18
+msgid "Look"
+msgstr ""
+
+#: admin/admin.php:19
+msgid "Look Form"
+msgstr ""
+
+#: admin/admin.php:20
+msgid "Search a form"
+msgstr ""
+
+#: admin/admin.php:21
+msgid "Not found"
+msgstr ""
+
+#: admin/admin.php:45
+msgid ""
+"Copy the shortcode below and paste it into your posts, pages or text widget "
+"content"
+msgstr ""
+
+#: admin/admin.php:78 admin/admin.php:91
+msgid "Russian alphabet, some characters and spaces are prohibited!"
+msgstr ""
+
+#: admin/admin.php:89
+msgid "Specify ID for the question. Use only the Latin alphabet"
+msgstr ""
+
+#: admin/admin.php:95
+msgid "Specify ID"
+msgstr ""
+
+#: admin/admin.php:96 admin/admin.php:252
+msgid "Formulate your question"
+msgstr ""
+
+#: admin/admin.php:103 admin/admin.php:260
+msgid "Minimum value"
+msgstr ""
+
+#: admin/admin.php:106 admin/admin.php:263
+msgid "Maximum value"
+msgstr ""
+
+#: admin/admin.php:111 admin/admin.php:264
+msgid "Specify step"
+msgstr ""
+
+#: admin/admin.php:117 admin/admin.php:159 admin/admin.php:282
+msgid "Specify option answer"
+msgstr ""
+
+#: admin/admin.php:119 admin/admin.php:162 admin/admin.php:285
+msgid "Pick a color on the chart"
+msgstr ""
+
+#: admin/admin.php:125 admin/admin.php:294
+msgid "Add an answer option"
+msgstr ""
+
+#: admin/admin.php:129 admin/admin.php:276
+msgid "Answer options"
+msgstr ""
+
+#: admin/admin.php:129 admin/admin.php:277
+msgid "Color on chart"
+msgstr ""
+
+#: admin/admin.php:142 admin/admin.php:301
+msgid "Add «Other» textbox to the end?"
+msgstr ""
+
+#: admin/admin.php:142 admin/admin.php:298 admin/admin.php:304
+msgid "Do not add"
+msgstr ""
+
+#: admin/admin.php:142 admin/admin.php:298 admin/admin.php:305
+msgid "Add"
+msgstr ""
+
+#: admin/admin.php:150
+msgid "No type selected"
+msgstr ""
+
+#: admin/admin.php:190
+msgid "Shortcode copied to clipboard"
+msgstr ""
+
+#: admin/admin.php:216
+msgid "Saved List:"
+msgstr ""
+
+#: admin/admin.php:217
+msgid "List preparation block:"
+msgstr ""
+
+#: admin/admin.php:221
+msgid "Text"
+msgstr ""
+
+#: admin/admin.php:222
+msgid "Link"
+msgstr ""
+
+#: admin/admin.php:223
+msgid "Phone"
+msgstr ""
+
+#: admin/admin.php:224
+msgid "Email"
+msgstr ""
+
+#: admin/admin.php:225 includes/SHORTCODE.php:179
+#: includes/VABFWC_CLASS/VABFWC_Class_Adm.php:70
+msgid "Date"
+msgstr ""
+
+#: admin/admin.php:226
+msgid "Number"
+msgstr ""
+
+#: admin/admin.php:227
+msgid "Range"
+msgstr ""
+
+#: admin/admin.php:228
+msgid "Radio buttons"
+msgstr ""
+
+#: admin/admin.php:229
+msgid "Checkboxes"
+msgstr ""
+
+#: admin/admin.php:230
+msgid "Drop-down list"
+msgstr ""
+
+#: admin/admin.php:231
+msgid "Text area"
+msgstr ""
+
+#: admin/admin.php:244
+msgid "Up"
+msgstr ""
+
+#: admin/admin.php:245
+msgid "Down"
+msgstr ""
+
+#: admin/admin.php:249
+msgid "Collapse/Expand block"
+msgstr ""
+
+#: admin/admin.php:251
+msgid "Specify an identifier"
+msgstr ""
+
+#: admin/admin.php:326
+msgid "Choose type"
+msgstr ""
+
+#: admin/admin.php:328
+msgid "Add Question"
+msgstr ""
+
+#: admin/admin.php:338
+msgid "Additional options"
+msgstr ""
+
+#: admin/admin.php:401
+msgid "Control of log files"
+msgstr ""
+
+#: admin/admin.php:405 admin/admin.php:413
+msgid "Write form responses to log files"
+msgstr ""
+
+#: admin/admin.php:413
+msgid "Write form responses to csv files"
+msgstr ""
+
+#: admin/admin.php:413
+msgid "Option required"
+msgstr ""
+
+#: admin/admin.php:427
+msgid "Show the CSV files only for"
+msgstr ""
+
+#: admin/admin.php:434
+msgid "Don`t write date to log files"
+msgstr ""
+
+#: admin/admin.php:442
+msgid "Don`t write IP address to log files"
+msgstr ""
+
+#: admin/admin.php:450
+msgid "Don`t write user Agent to log files"
+msgstr ""
+
+#: admin/admin.php:458
+msgid "Block access to log files with htaccess"
+msgstr ""
+
+#: admin/admin.php:463
+msgid "Settings of charts"
+msgstr ""
+
+#: admin/admin.php:467
+msgid "Don`t show chart"
+msgstr ""
+
+#: admin/admin.php:475
+msgid "Always show the charts at the end of the questionnaire"
+msgstr ""
+
+#: admin/admin.php:489
+msgid "Show the charts only for"
+msgstr ""
+
+#: admin/admin.php:496
+msgid "Hide the total number of completed questionnaires"
+msgstr ""
+
+#: admin/admin.php:504
+msgid "Show total answers per question above pie chart"
+msgstr ""
+
+#: admin/admin.php:512
+msgid "Show the number of answers for each question above the pie chart"
+msgstr ""
+
+#: admin/admin.php:520
+msgid "Hide the total selection number of each checkbox"
+msgstr ""
+
+#: admin/admin.php:525
+msgid "Settings of attachments"
+msgstr ""
+
+#: admin/admin.php:529
+msgid "Add the ability to send a file"
+msgstr ""
+
+#: admin/admin.php:537
+msgid "Multiple File Upload"
+msgstr ""
+
+#: admin/admin.php:545
+msgid "Total files size"
+msgstr ""
+
+#: admin/admin.php:553
+msgid "Allowed extensions. Separate by comma"
+msgstr ""
+
+#: admin/admin.php:558
+msgid "Email settings"
+msgstr ""
+
+#: admin/admin.php:562
+msgid "Table title"
+msgstr ""
+
+#: admin/admin.php:570
+msgid "Send a copy of the form to the admin"
+msgstr ""
+
+#: admin/admin.php:570
+msgid "The field below must be filled"
+msgstr ""
+
+#: admin/admin.php:578
+msgid "Email to send the form to"
+msgstr ""
+
+#: admin/admin.php:586
+msgid ""
+"Sending an email to a user. You can activate the receipt of a copy of the "
+"letter by e-mail for the user who submitted the form.The user`s email will "
+"be taken from the «email» form field"
+msgstr ""
+
+#: admin/admin.php:594
+msgid "Do not send emails"
+msgstr ""
+
+#: admin/admin.php:762
+msgid "Shortcode"
+msgstr ""
+
+#: admin/admin.php:799 admin/admin.php:800 admin/admin.php:810
+msgid "About release"
+msgstr ""
+
+#: admin/admin.php:815
+msgid "Plugin Name"
+msgstr ""
+
+#: admin/admin.php:823
+msgid "Description"
+msgstr ""
+
+#: admin/admin.php:826
+msgid ""
+"Simple Plugin for creating forms, inquirer and questionnaires with the "
+"ability to display the results in the form of charts"
+msgstr ""
+
+#: admin/admin.php:831
+msgid "Author"
+msgstr ""
+
+#. Author of the plugin/theme
+#: admin/admin.php:834
+msgid "Vladimir Anatol`evich Brumer"
+msgstr ""
+
+#: admin/admin.php:839
+msgid "Version"
+msgstr ""
+
+#: admin/admin.php:848
+msgid "Version Wordpress at least"
+msgstr ""
+
+#: admin/admin.php:856
+msgid "Tested Wordpress up to"
+msgstr ""
+
+#: admin/admin.php:864
+msgid "Requires PHP"
+msgstr ""
+
+#: admin/admin.php:872
+msgid "Plugin URI"
+msgstr ""
+
+#: admin/admin.php:882
+msgid "GitHub"
+msgstr ""
+
+#: admin/admin.php:892
+msgid "Donate link"
+msgstr ""
+
+#: admin/admin.php:902
+msgid "New in version"
+msgstr ""
+
+#: admin/admin.php:905
+msgid "Fixes for compatibility with Wordpress 6.6"
+msgstr ""
+
+#: admin/admin.php:906
+msgid ""
+"Fixes for compatibility with PHP 8.1 and higher (replacing "
+"FILTER_SANITIZE_STRING)"
+msgstr ""
+
+#: admin/admin.php:907
+msgid ""
+"Fixed the work of the form option (sending the form by default to the Email "
+"field in the completed form)"
+msgstr ""
+
+#: includes/SHORTCODE.php:85
+msgid "Check entered data"
+msgstr ""
+
+#: includes/SHORTCODE.php:91
+msgid "Uploaded file size bytes/Mb"
+msgstr ""
+
+#: includes/SHORTCODE.php:113
+msgid "Confirm the reset by checking the box"
+msgstr ""
+
+#: includes/SHORTCODE.php:145
+msgid "Message from the site"
+msgstr ""
+
+#: includes/SHORTCODE.php:149
+msgid "Form"
+msgstr ""
+
+#: includes/SHORTCODE.php:155
+msgid "Questionnaire content"
+msgstr ""
+
+#: includes/SHORTCODE.php:156
+msgid "IP address"
+msgstr ""
+
+#: includes/SHORTCODE.php:158
+msgid "The form author Vladimir Anatolyevich Brumer"
+msgstr ""
+
+#: includes/SHORTCODE.php:167
+msgid "Question"
+msgstr ""
+
+#: includes/SHORTCODE.php:168
+msgid "Possible answer"
+msgstr ""
+
+#: includes/SHORTCODE.php:169
+msgid "Your own answer"
+msgstr ""
+
+#: includes/SHORTCODE.php:177
+msgid "Title not specified"
+msgstr ""
+
+#: includes/SHORTCODE.php:178
+msgid "Title the form"
+msgstr ""
+
+#: includes/SHORTCODE.php:439
+msgid "Links not allowed"
+msgstr ""
+
+#: includes/SHORTCODE.php:603
+msgid " One or more files exceed the allowed size "
+msgstr ""
+
+#: includes/SHORTCODE.php:603 includes/SHORTCODE.php:624
+msgid " Мб"
+msgstr ""
+
+#: includes/SHORTCODE.php:608
+msgid " One or more files are not in a valid format"
+msgstr ""
+
+#: includes/SHORTCODE.php:609
+msgid "File"
+msgstr ""
+
+#: includes/SHORTCODE.php:610
+msgid "have extension"
+msgstr ""
+
+#: includes/SHORTCODE.php:624
+msgid " The total size of files exceeds the allowed size "
+msgstr ""
+
+#: includes/SHORTCODE.php:670
+msgid "Data array is empty"
+msgstr ""
+
+#: includes/SHORTCODE.php:676
+msgid "Text input field..."
+msgstr ""
+
+#: includes/SHORTCODE.php:677
+msgid "Write your answer"
+msgstr ""
+
+#: includes/SHORTCODE.php:679
+msgid "Your message was successfully sent"
+msgstr ""
+
+#: includes/SHORTCODE.php:680
+msgid "Message not sent"
+msgstr ""
+
+#: includes/SHORTCODE.php:686
+msgid "The results are displayed at the end of the questionnaire"
+msgstr ""
+
+#: includes/SHORTCODE.php:686
+msgid ""
+"Results will be displayed after filling out and sending the questionnaire"
+msgstr ""
+
+#: includes/SHORTCODE.php:722
+msgid "URL input field"
+msgstr ""
+
+#: includes/SHORTCODE.php:728
+msgid "Phone input field"
+msgstr ""
+
+#: includes/SHORTCODE.php:734
+msgid "Email input field"
+msgstr ""
+
+#: includes/SHORTCODE.php:740
+msgid "Input field type «Date»"
+msgstr ""
+
+#: includes/SHORTCODE.php:746
+msgid "Input field type «Range»"
+msgstr ""
+
+#: includes/SHORTCODE.php:746
+msgid "Input field type «Number»"
+msgstr ""
+
+#: includes/SHORTCODE.php:769
+msgid "Input field type «Dropdown list»"
+msgstr ""
+
+#: includes/SHORTCODE.php:771
+msgid "Choose a variant"
+msgstr ""
+
+#: includes/SHORTCODE.php:800 includes/SHORTCODE.php:804
+#: includes/SHORTCODE.php:805
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:52
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:85
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:97
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:115
+msgid "Other"
+msgstr ""
+
+#: includes/SHORTCODE.php:827
+msgid " Sorry, the message was not sent."
+msgstr ""
+
+#: includes/SHORTCODE.php:831 includes/controller.php:14
+msgid "Select files"
+msgstr ""
+
+#: includes/SHORTCODE.php:832
+msgid "Valid File Format"
+msgstr ""
+
+#: includes/SHORTCODE.php:845
+msgid "Resetting the filled fields"
+msgstr ""
+
+#: includes/SHORTCODE.php:847 includes/VABFWC_CLASS/VABFWC_Class_Adm.php:59
+msgid "Send"
+msgstr ""
+
+#: includes/SHORTCODE.php:878
+msgid "CSV log files"
+msgstr ""
+
+#: includes/SHORTCODE.php:896 includes/VABFWC_CLASS/VABFWC_Class_Adm.php:49
+msgid "Download"
+msgstr ""
+
+#: includes/SHORTCODE.php:911
+msgid "Table deleted successfully"
+msgstr ""
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Adm.php:51
+msgid "Information for administrator"
+msgstr ""
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Adm.php:56
+#: includes/VABFWC_CLASS/VABFWC_Class_Adm.php:57
+msgid "Reset table"
+msgstr ""
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Adm.php:59
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Adm.php:69
+msgid "IP - adress"
+msgstr ""
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Adm.php:71
+msgid "OS and browser"
+msgstr ""
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:21
+msgid "Answers to the question"
+msgstr ""
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:22
+msgid "Answers"
+msgstr ""
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:230
+msgid "Questionnaire completed"
+msgstr ""
+
+#: includes/VABFWC_CLASS/VABFWC_Class_Graphic.php:230
+msgid "times"
+msgstr ""
+
+#: includes/controller.php:15
+msgid "Selected files"
+msgstr ""
+
+#: includes/controller.php:107
+msgid "Form name"
+msgstr ""
+
+#: includes/controller.php:108
+msgid "is empty"
+msgstr ""
+
+#: includes/controller.php:109
+msgid "Specify an ID for the form"
+msgstr ""
+
+#: includes/controller.php:110
+msgid "Specify an class for the form"
+msgstr ""
+
+#: includes/controller.php:111
+msgid "Select form"
+msgstr ""
+
+#: includes/controller.php:112
+msgid "Id to a form"
+msgstr ""
+
+#: includes/controller.php:113
+msgid "Сlass to a form"
+msgstr ""
+
+#: includes/controller.php:114
+msgid "Choose a tag for the title"
+msgstr ""
+
+#: includes/controller.php:115
+msgid "Title to the chart"
+msgstr ""
+
+#: includes/controller.php:116
+msgid "Display form charts"
+msgstr ""
+
+#: includes/controller.php:117
+msgid "Specify an title for the chart"
+msgstr ""
+
+#: includes/controller.php:118
+msgid "Сlass for the tag in title"
+msgstr ""
+
+#: includes/controller.php:119
+msgid "Specify an class for the tag"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/controller.php:157
+msgid "Forms with chart from VAB"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://it-vab.ru/vab-forms-with-chart"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Simple Plugin for creating forms, inquirer and questionnaires with the "
+"ability to display the results in the form of charts."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://it-vab.ru/"
+msgstr ""

@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        # prevent listing of directory contents
+        Options -MultiViews -Indexes
+    </IfModule>
+    RewriteEngine on
+    # Prevent all access to `tests`,`.github` and `.idea` folder using [F] to return a 403 Forbidden status
+    RewriteRule ^(.git|.github|.idea|tests) - [F]
+    # Deny access to filenames starting with dot(.)
+    RewriteRule ^\. - [F]
+    # Deny access to files with extensions .md, .log, .cache, .dist, .json and .lock
+    RewriteRule \.(md|log|cache|dist|json|lock)$ - [F]
+</IfModule>

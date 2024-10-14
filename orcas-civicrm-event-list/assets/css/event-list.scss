@@ -1,0 +1,74 @@
+.civicrm-event-list {
+
+
+
+  .civicrm-event-spacer{
+    padding-bottom:10px;
+    border-bottom: 2px solid #424242;
+    margin-top:20px;
+
+    h2 {
+      padding:0;
+      margin:0;
+    }
+  }
+
+  .civicrm-event{
+    border: 1px solid #ccc;
+    margin-top:20px;
+    transition: all 300ms ease;
+    padding:10px;
+    padding-left:20px;
+
+    .far {
+      margin-right:10px;
+      margin-left:10px;
+    }
+
+    .far:first-child {
+      margin-left:0;
+    }
+
+    .fas {
+      margin-right:10px;
+    }
+  }
+
+  .civicrm-event-title{
+    padding-left: 20px;
+
+    h2 {
+      padding:0;
+      margin:0;
+    }
+  }
+
+  .civicrm-event:hover{
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1);
+  }
+
+  .civicrm-event:first-child{
+    margin-top:0;
+  }
+
+  .civicrm-attend-box{
+
+    div{
+      float:left;
+    }
+
+    &:after {
+      display:block;
+      content: "";
+      clear:both;
+    }
+
+    .civicrm-event-attend {
+      float: right;
+    }
+  }
+
+
+}

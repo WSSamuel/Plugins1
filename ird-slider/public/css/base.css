@@ -1,0 +1,8 @@
+.irdslider-contenedor1 {display:flex; flex-direction: row;}
+.irdslider-tarjeta {display:flex; flex-direction: row !important; }
+.irdslider-div-img {width: 40%; }
+.irdslider-img {width: 100%}
+.irdslider-div-texto {width: 60%; display: flex; flex-direction: column;}
+.irdslider-div-titulo {text-align: center;font-size: 2em }
+.irdslider-div-subtitulo {text-align: center; font-size: 1.3em; font-weight: bold}
+.irdslider-div-texto {text-align:center ; overflow-y: ellipsis }

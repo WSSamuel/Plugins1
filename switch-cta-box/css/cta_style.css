@@ -1,0 +1,210 @@
+/*
+Plugin Name: Switch CTA Box
+Plugin URI: www.wppluginwiki.com
+Description: Switch CTA Box plugin helped to creat lovely CTA box. Switch CTA Box anywhere in WordPress posts, pages and widgets.
+Author: @wppluginwiki
+Author URI: http://wppluginwiki.com/
+Version: a1.0
+Tags: cta box, wordpress box, subscription box, shortcode box, custom post type, ash, minimalist
+License: GPL2
+*/
+
+.cta_wrap.container {
+    background-color: #eee;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto 20px;
+    text-align: center;
+    border: 2px dashed #000;
+}
+
+.cta_title {
+    background: #686868;
+    padding: 7px 10px;
+}
+
+h3.boxtittle {
+    color: #EDEDED;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    border: 1px solid;
+}
+
+.cta_des {
+    padding: 27px 5px 5px;
+}
+
+.cta_bbtn a.cta_box_btn {
+    text-decoration: none;
+    box-shadow: 0px 1px 0px rgb(239, 94, 32);
+    background-color: transparent;
+    color: #fff;
+    padding: 0.8% 3.5%;
+    border: 2px solid #EF5E29;
+    border-radius: 5px;
+}
+
+
+.cta_bbtn a.cta_box_btn:hover {
+    color: #fff;
+	box-shadow: none;
+	background-color: #EF5E29;
+}
+
+/*
+@post display template one css
+@ash.if
+*/
+
+.cta_wrap.cta_tem_one.container {
+    background-color: #83B9B4;
+    padding-top: 0;
+    border-color: transparent;
+    color: #EDEDED;
+}
+
+.cta_tem_one .cta_title {
+    background: #686868;
+    padding: 7px 10px;
+}
+
+.cta_tem_one h3.boxtittle {
+    color: #EDEDED;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    border: 1px solid;
+	font-size: 20px;
+}
+
+.cta_tem_one .cta_des {
+    padding: 5% 2% 2%;
+}
+
+.cta_tem_one .cta_bbtn a.cta_box_btn {
+    text-decoration: none;
+    box-shadow: 0px 1px 0px rgb(239, 94, 32);
+    background-color: transparent;
+    color: #fff;
+    padding: 0.8% 3.5%;
+    border: 2px solid #EF5E29;
+    border-radius: 5px;
+}
+
+
+.cta_tem_one .cta_bbtn a.cta_box_btn:hover {
+    color: #fff;
+	box-shadow: none;
+	background-color: #EF5E29;
+}
+
+
+/*
+@post display template two css
+@ash.if
+*/
+
+.cta_wrap.cta_tem_wid.container {
+    background-color: #535353;
+    width: 100%;
+    border: none;
+    padding: 15px 30px 45px;
+}
+
+.cta_tem_wid .cta_des {
+    padding: 27px 5px 5px;
+    text-align: center;
+    color: #eee;
+}
+
+.cta_tem_wid .cta_bbtn a.cta_box_btn {
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0.9% 3.5%;
+}
+
+.cta_tem_wid h3.boxtittle {
+    color: #535353;
+    text-shadow: -1px -1px 0 #eee, 1px -1px 0 #eee, -1px 1px 0 #eee, 1px 1px 0 #eee;
+    font-size: 25px;
+    border: 0px;
+    padding-top: 20px;
+}
+
+.cta_tem_wid .cta_title {
+    background: #989898;
+    padding: 7px 10px;
+    position: relative;
+    top: -15px;
+    width: 100%;
+    max-width: 270px;
+    margin: 0 auto;
+}
+
+/*
+@post display template orng css
+@ash.if
+*/
+
+.cta_wrap.cta_tem_orng.container {
+    background-color: #EF5E29;
+    border: 5px solid #fff;
+}
+
+.cta_tem_orng .cta_title {
+    background: transparent;
+    padding: 7px 12px;
+    text-align: left;
+}
+
+.cta_tem_orng h3.boxtittle {
+    border: 0px;
+    font-weight: 600;
+}
+
+.cta_tem_orng .cta_des {
+    padding: 10px 13px 5px;
+    color: #eee;
+    text-align: left;
+}
+
+.cta_tem_orng a.cta_box_btn {
+    border-color: #eee;
+    border-radius: 0PX;
+}
+
+.cta_tem_orng .cta_bbtn {
+    text-align: right;
+    padding-right: 12px;
+}
+.triangle {
+    height: 0;
+    width: 0;
+    border-left: 135px solid transparent;
+    border-right: 135px solid transparent;
+    border-bottom: 100px solid #transparent;
+    border-top: 23px solid #989898;
+    width: 100%;
+    max-width: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -16px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.triangle {
+		border-left: 100px solid transparent;
+		border-right: 101px solid transparent;
+		margin-top: -15px;
+	}
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 736px) {
+	.triangle {
+		border-left: 135px solid transparent;
+		border-right: 135px solid transparent;
+		margin-top: -15px;
+	}
+}

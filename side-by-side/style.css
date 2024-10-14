@@ -1,0 +1,34 @@
+.skewed-boxes {
+	position: relative;
+  	overflow:hidden;
+}
+
+.skewed-boxes .left-skewed-box {
+	border-right: 3px solid #fff;
+	box-sizing: content-box;
+	left: -150%;
+	overflow: hidden;
+	position: relative;
+	width: 200%;
+	z-index: 1;
+	transform: skewX(-45deg);
+  	-ms-transform: skewX(-45deg);/* IE 9 */
+	-webkit-transform: skewX(-45deg);/* Chrome, Safari, Opera */
+	-moz-transform: skewX(-45deg);/*Firefox*/
+}
+
+.skewed-boxes .left-skewed-box > .left-content-box {
+	left: 75%;
+	position: relative;
+	transform: skewX(45deg);
+  	-ms-transform: skewX(45deg);/* IE 9 */
+	-webkit-transform: skewX(45deg);/* Chrome, Safari, Opera */
+	-moz-transform: skewX(45deg);/*Firefox*/
+	width: 50%;
+}
+
+.skewed-boxes .right-box {
+	position: absolute;
+	top: 0;
+	max-width: 100%;
+}

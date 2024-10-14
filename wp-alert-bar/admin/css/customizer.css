@@ -1,0 +1,15 @@
+/* WP Alert Bar Customizer
+------------------------------------------- 
+
+Table of contents
+	- WP Alert Bar Customizer
+	- Media Queries
+
+------------------------------------------- */
+
+/* WP Alert Bar Customizer
+-------------------------------------------- */
+
+#customize-theme-controls #sub-accordion-section-mbwpab_style_section #_customize-input-font_size {
+	max-width: 110px;
+}

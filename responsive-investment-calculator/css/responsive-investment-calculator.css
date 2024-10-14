@@ -1,0 +1,175 @@
+.ric_form_responsive {
+	width: 100%;
+}
+
+.ric_input {
+	margin-bottom: 1rem;
+}
+
+.ric_input label {
+	display: block;
+	margin-bottom: .25em;
+}
+
+.ric_form_light input[type="text"] {
+	padding: .6em;
+	margin-bottom: 1em;
+	color: #333;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+.ric_form_dark input[type="text"] {
+	padding: .6em;
+	margin-bottom: 1em;
+	color: #fff;
+	background: #000;
+	border: 1px solid #333;
+}
+
+.ric_form_responsive input[type="text"] {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.ric_form_responsive .ric_select {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.ric_form_responsive select {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+
+.ric_form_light .ric_select select,
+.ric_form_dark .ric_select select {
+	position: relative;
+	z-index: 1000;
+	width: 110%;
+	padding: 0;
+	margin: 0;
+	border: none;
+	background: none;
+	-webkit-appearance: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ie-box-shadow: none;
+	box-shadow: none;
+}
+
+.ric_form_dark .ric_select select {
+	color: #fff;
+}
+
+.ric_form_light .ric_select,
+.ric_form_dark .ric_select {
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 100;
+	width: 100%;
+	padding: .35em .5em .35em .5em;
+	margin-bottom: 1em;
+	overflow: hidden;
+	line-height: 1em;
+}
+
+.ric_form_light .ric_select {
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+.ric_form_dark .ric_select {
+	color: #fff;
+	background: #000;
+	border: 1px solid #333;
+}
+
+.ric_select select:focus,
+.ric_select select:focus {
+	outline: none;
+}
+
+.ric_form_light .ric_select:before,
+.ric_form_dark .ric_select:before {
+	content: '';
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 2em;
+	height: 100%;
+}
+
+.ric_form_light .ric_select:before {
+	background: #ddd;
+}
+.ric_form_dark .ric_select:before {
+	background: #666;
+}
+
+.ric_select:after,
+.ric_select:after {
+	content: '';
+	display: block;
+	position: absolute;
+	right: .45em;
+	top: .65em;
+	border-bottom: .5em solid transparent;
+	border-right: .5em solid transparent;
+	border-left: .5em solid transparent;
+}
+
+.ric_form_light .ric_select:after {
+	border-top: .5em solid #333;
+}
+.ric_form_dark .ric_select:after {
+	border-top: .5em solid #fff;
+}
+
+.ric_error {
+	display: block;
+	margin: .25em 0 .5em 0;
+	color: #900;
+}
+
+.ric_results_wrap {
+	position: relative;
+	margin-top: 2em;
+}
+
+.ric_inspector {
+	position: absolute;
+	right: 0;
+	top: 0;
+    cursor: pointer;
+}
+
+.ric_summary {
+	box-sizing: border-box;
+	width: 100%;
+	height: auto;
+	padding: 1em 1em 0 1em;
+	margin: 0 0 1em 0;
+}
+
+.ric_form_light + .ric_results_wrap .ric_summary {
+	color: #333;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+.ric_form_dark + .ric_results_wrap .ric_summary {
+	color: #fff;
+	background: #000;
+	border: 1px solid #333;
+}
+
+.ric_b {
+	font-weight: bold;
+}

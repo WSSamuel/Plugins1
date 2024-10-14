@@ -1,0 +1,53 @@
+#eumapwrapper-org {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 0;
+    background-color: transparent;
+    min-width: 220px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+#eumapbase-org svg {
+    max-height: 100%;
+    width: 100%;
+    margin: 0;
+}
+@media screen and (max-width: 320px){
+    #eumapbase-org svg {
+        height:200px;
+    }
+}
+@media screen and (max-width: 400px) and (min-width: 321px) {
+    #eumapbase-org svg {
+        height:260px;
+    }
+}
+@media screen and (max-width: 480px) and (min-width: 401px) {
+    #eumapbase-org svg {
+        height:320px;
+    }
+}
+@media screen and (max-width: 568px) and (min-width: 481px) {
+    #eumapbase-org svg {
+        height:390px;
+    }
+}
+@media screen and (max-width: 685px) and (min-width: 569px) {
+    #eumapbase-org svg {
+        height:420px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 686px) {
+    #eumapbase-org svg {
+        height:450px;
+    }
+}
+@media screen and (min-width: 768px) {
+    #eumapbase-org svg {
+        height:560px;
+    }
+}

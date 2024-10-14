@@ -1,0 +1,62 @@
+.form-table select{width:175px;}
+    /* Example Styles for Demo */
+    .etabs { margin: 0; padding: 0; }
+    .tab { display: inline-block; zoom:1; *display:inline; background: #eee; border: solid 1px #999; border-bottom: none; -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; }
+    .tab a { font-size: 14px; line-height: 2em; display: block; padding: 0 10px; outline: none; }
+    .tab a:hover { text-decoration: underline; }
+    .tab.active { background: #fff; padding-top: 6px; position: relative; top: 1px; border-color: #666; }
+    .tab a.active { font-weight: bold; }
+    .tab-container .panel-container { background: #fff; border: solid #666 1px; padding: 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }
+    .panel-container { margin-bottom: 10px; }
+	.help-client-link{text-decoration: none;}
+	
+	.form-table #CFWP_page_id{width:270px;}
+	
+	.form-table, .form-table td, .form-table td p, .form-table th, .form-wrap label {
+    font-size: 14px;
+}
+
+.form-table {
+    border-collapse: collapse;
+    margin-top: .5em;
+    width: 100%;
+    clear: both;
+}
+
+.buy-button{
+background: #f9866b; 
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+    height: 34px;
+    border-radius: 3px;
+    font-family: "Open Sans", sans-serif;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 34px;
+    padding-right: 10px;
+    display: inline-block;
+    margin: 14px 20px 0px 0px;
+}
+
+.buy-button span{
+background: #f16848;
+    width: 30px;
+    line-height: 34px;
+    height: 34px;
+    display: block;
+    float: left;
+    border-radius: 3px 0px 0px 3px;
+    margin-right: 10px;
+    text-align: center;
+}
+.rate{background: #4C4661;}
+.rate span{background: #3F3B50;}
+
+
+.buy{background: #27D655;}
+.buy span{background: #0FB13A;}
+.buy-package{background:#0815D5;}
+.buy-package span{background:#0711A6;}
+

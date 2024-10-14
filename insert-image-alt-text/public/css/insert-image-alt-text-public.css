@@ -1,0 +1,49 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .iiat-alt_text_button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99999999;
+ }
+
+ .iiat-alt_text_button .iiat-check-alt-text{
+    background: black;
+    padding: 10px;
+    border: 0;
+    color: white;
+ }
+
+.iiat-no-alt-here{
+    position: fixed;
+    top: 30%;
+    right: 20px;
+    width: 300px;
+    background: black;
+    padding: 10px;
+	border: 3px solid white;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.iiat-no-alt-here ol{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.iiat-no-alt-here ol li::-moz-selection { 
+	background: yellow;
+	color: black;
+}
+
+.iiat-no-alt-here ol li::selection { 
+	background: yellow;
+	color: black;
+}
+
+.iiat-no-alt-here ol li, .iiat-no-alt-here ol li a{
+	color: white;
+}

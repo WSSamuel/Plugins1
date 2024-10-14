@@ -1,0 +1,18 @@
+#vabfwc_name_form *{
+	display:none;
+}
+.swap-add-vabfwc-form{
+border:1px solid #0374A0;
+padding:14px;
+}
+.heading-add-vabfwc-form{
+	color:#0374A0;
+}
+.block-add-vabfwc-form{
+  display:flex;
+  justify-content:space-between;
+	padding:7px;
+}
+.wp-block-vabfwc-chart-custom-block,.wp-block-vabfwc-form-custom-block{
+	text-align:center;
+}

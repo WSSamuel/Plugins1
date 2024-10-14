@@ -1,0 +1,218 @@
+@import 'variables';
+@import 'fonts';
+
+
+/**
+ * Typography
+ */
+
+#cpt-admin,
+.cpt-notice {
+  font-family: Jost;
+  font-variant-ligatures: common-ligatures;
+}
+
+#cpt-admin-header {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 120px 1fr;
+  margin-bottom: 15px;
+
+  * {
+    align-self: center;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+}
+
+#cpt-admin-page-title {
+  #cpt-page-title {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: $line-height-sm;
+    padding-top: 0;
+  }
+
+  #cpt-subtitle {
+    color: gray;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: $line-height-sm;
+    margin: 0;
+  }
+
+  #cpt-client-status,
+  #cpt-primary-contact,
+  #cpt-client-manager,
+  #cpt-project-status,
+  #cpt-project-client {
+    font-size: 16px;
+    line-height: $line-height-sm;
+    margin: 0;
+  }
+}
+
+/* Forms */
+#cpt-admin {
+  h2:not(:first-child) {
+    margin-top: $spacing-md;
+  }
+
+  button,
+  .button {
+    font-weight: normal;
+  }
+
+  .form-table {
+    th label small {
+      font-weight: normal;
+    }
+  }
+
+  .cpt-this-expands {
+    background-color: $gray-wash;
+    margin: $spacing-regular 0;
+    padding: $spacing-regular;
+  }
+
+  .column-project_id {
+    width: 10%;
+  }
+
+  .column-project_count {
+    text-align: center;
+    width: 10%;
+  }
+
+  .form-wrap {
+    > :first-child {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    > form > :last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .form-field {
+      margin-top: 0;
+      margin-bottom: $spacing-regular;
+
+      input:not([type="checkbox"]),
+      select,
+      textarea {
+        max-width: unset;
+        width: 100%;
+      }
+    }
+
+    .submit {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+#cpt-delete-client-link {
+  cursor: pointer;
+  display: inline-block;
+  margin-top: $spacing-sm;
+
+  &:not(:hover) {
+    color: $light-text;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+#cpt_delete_project_button {
+  margin-top: $spacing-sm;
+
+  #submit {
+    background: unset;
+    border: unset;
+    cursor: pointer;
+    display: inline;
+    margin: 0;
+    padding: unset;
+
+    &:not(:hover) {
+      color: $light-text;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.cpt-admin-modal {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-areas: 'lbuffer modal rbuffer';
+  grid-template-columns: minmax(10px, 1fr) minmax(300px, 500px) minmax(10px, 1fr);
+  margin: 0;
+  max-height: 80%;
+  overflow: scroll;
+  padding: 0;
+  position: fixed;
+    left: 0;
+    top: 10%;
+  width: 100%;
+  z-index: 100;
+}
+
+  .cpt-admin-modal-card {
+    background-color: #fff;
+    box-shadow: $box-shadow;
+    border: $border;
+    box-sizing: border-box;
+    grid-area: modal;
+    margin: 3px;
+    padding: $spacing-md;
+    position: relative;
+  }
+
+    .cpt-admin-modal {
+      h2 {
+        border: none;
+        margin-top: 0;
+        padding: 0;
+      }
+    }
+
+    #cpt_delete_client_button {
+      display: inline-block;
+    }
+
+.cpt-admin-modal-screen {
+  background-color: $gray-wash;
+  height: 100%;
+  position: fixed;
+    left: 0;
+    top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+
+#cpt-edit-row {
+  animation: growDown 150ms ease-in-out forwards;
+  background-color: $gray-wash;
+  display: none;
+  transform-origin: top;
+
+  td {
+    padding: $spacing-regular;
+  }
+
+  .submit {
+    margin: 0;
+    padding: 0;
+  }
+}

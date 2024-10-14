@@ -1,0 +1,27 @@
+{
+  "name": "vardaam/wp-filter-anything",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Vardaam\\FilterAnything\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Kalrav Joshi",
+      "email": "kalrav@vardaam.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "jjgrainger/posttypes": "^2.2",
+    "htmlburger/carbon-fields-plugin": "^3.3",
+    "htmlburger/carbon-field-number": "^3.0"
+  },
+  "config": {
+    "vendor-dir": "lib",
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}

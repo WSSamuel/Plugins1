@@ -1,0 +1,53 @@
+/*
+        	                 Style sheet - Lottery Number Supplier
+        	                 *************************************
+   Following selectors apply:
+                             #lottoslim  - pertains to form's use in a sidebar
+                             #lottonorm  - pertains to form's use in a page or post, the default. 				
+*/
+
+#lottonorm fieldset{
+	width:20em;
+	margin-left:10px;
+	border:1px solid #444;
+	padding:5px;
+	background-color:#F1F1F1;
+	}
+#lottonorm p{padding:0;
+             margin:0;
+             letter-spacing:1px;
+             margin-bottom:5px;
+             margin-top:5px;
+  	    }
+#lottonorm textarea{ margin:0;
+		width:19em;
+		height:2.0em;
+		font-size:0.85em;
+        padding:3px;
+    	}
+#lottoslim fieldset{
+	width:18em;
+	margin-left:4px;
+	border:1px solid #444;
+	padding:5px;
+	background-color:#F1F1F1;
+	}
+
+#lottoslim p{padding:0;
+             margin:0;
+             letter-spacing:1px;
+             margin-bottom:5px;
+             margin-top:5px;
+	    }
+#lottoslim textarea{ margin:0;
+		width:15em;
+		height:2.0em;
+		font-size:0.85em;
+		padding:2px
+    	}
+
+#pickbutton{border:solid 1px #666666;
+			font-size:0.75em;
+			font-weight:bold;
+			padding:4px 4px;
+			}

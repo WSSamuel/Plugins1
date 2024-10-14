@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Login SC v0.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-09-20 18:14-0500\n"
+"Last-Translator: Ghyslain Drolet <info@pointzeronord.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"Language: fr_FR\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ slsc
+#: simple_login_sc.php:43
+msgid "Welcome"
+msgstr "Bonjour"
+
+# @ default
+#: simple_login_sc.php:40
+msgid "Username"
+msgstr ""
+
+# @ default
+#: simple_login_sc.php:41
+msgid "Password"
+msgstr ""
+
+# @ default
+#: simple_login_sc.php:42
+msgid "Log In"
+msgstr ""
+
+# @ default
+#: simple_login_sc.php:44
+msgid "Log out"
+msgstr ""
+
+# @ slsc
+#: simple_login_sc.php:74
+msgid "Simple Login SC does just what it means"
+msgstr "Simple Login SC fait simplement ce que ça dit"
+
+# @ slsc
+#: simple_login_sc.php:75
+msgid ""
+"Simple Login SC does not mess with other plugins because it does just login "
+"or logout a user. Nothing more. Nothing less.<br />It uses the core "
+"functions of WordPress thus not slowing down your site. No fancy stuff or "
+"hard settings. This is just a login plugin!"
+msgstr ""
+"Simple Login SC n'interfère pas avec d'autres extensions puisqu'il fait "
+"seulement ouvrir ou fermer une session à un utilisateur. Rien de plus. Rien "
+"de moins.<br />Il utilise les fonctions de WordPress donc ne ralenti pas "
+"votre site. Pas de fioritures ou de paramètres compliqués. Ceci n'est qu'une "
+"extension de connexion!"
+
+# @ slsc
+#: simple_login_sc.php:77
+msgid "Using Simple Login SC is absolutely easy"
+msgstr "Utiliser Simple Login SC est d'une absolue facilité"
+
+# @ slsc
+#: simple_login_sc.php:78
+msgid "Just type the shortcode where you want a login form to show."
+msgstr ""
+"Simplement insérer le <i>shortcode</i> où vous souhaitez qu'apparaisse un "
+"formulaire de connexion."
+
+# @ slsc
+#: simple_login_sc.php:79
+msgid ""
+"Use [sl_shortcode] shortcode to add a login form to a page, post or in a "
+"text/html widget."
+msgstr ""
+"Utilisez le <i>shortcode</i> [sl_shortcode] pour ajouter un formulaire de "
+"connexion dans une page, un article ou un widget texte/html."
+
+# @ slsc
+#: simple_login_sc.php:80
+msgid ""
+"You can optionally set the labels for \"username\", \"password\", the submit "
+"button and/or the welcome message, the logout text. Just by adding text to "
+"the shortcode.<br />"
+msgstr ""
+"Vous pouvez optionnellement modifier les étiquettes pour \"identifiant\", "
+"\"mot de passe\", le bouton de soumission et/ou le message de bienvenu, le "
+"texte de déconnexion. Seulement en ajoutant du texte au <i>shortcode</i>."
+"<br />"
+
+# @ slsc
+#: simple_login_sc.php:81
+msgid "Usage"
+msgstr "Utilisation"
+
+# @ slsc
+#: simple_login_sc.php:82
+msgid ""
+"Example: [sl_shortcode username_label=\"What is your name?\" password_label="
+"\"Password Please!\" button_text=\"Let me in!\" welcome_text=\"Hello\" "
+"logouttext=\"Let's go outside!\"]"
+msgstr ""
+"Exemple: [sl_shortcode username_label=\"Votre code utilisateur\" "
+"password_label=\"Mot de passe SVP!\" button_text=\"Laissez-moi entrer!\" "
+"welcome_text=\"Allo\" logouttext=\"Allons jouer dehors!\"]"
+
+# @ slsc
+#: simple_login_sc.php:85
+msgid ""
+"This is very useful if the language pack is not available in your language "
+"or if you have a multilangual site running WPML."
+msgstr ""
+"Ceci est très utile si le packetage dans votre langue n'est pas disponible "
+"ou si vous avez un site multilingue utilisant WPML."
+
+# @ slsc
+#: simple_login_sc.php:86
+msgid ""
+"If you do not set one or all of the optional text, the default text of "
+"WordPress and the plugin will be used."
+msgstr ""
+"Si vous n'entrez pas de paramètres optionnels, les textes par défaut de "
+"WordPress et de l'extension seront utilisés."
+
+# @ slsc
+#: simple_login_sc.php:88
+msgid "Need more?"
+msgstr "Besoin de plus?"
+
+# @ slsc
+#: simple_login_sc.php:89
+msgid "Redirection"
+msgstr "Redirection"
+
+# @ slsc
+#: simple_login_sc.php:90
+msgid ""
+"Has said before, Simple Login SC is just a login plugin. But if you need to "
+"redirect users on login, we suggest you use <a href=\"https://wordpress.org/"
+"plugins/peters-login-redirect/\" target=\"_blank\">Peter's Login Redirect</"
+"a> which has redirection base on user, roles...<br />And Simple Login SC "
+"does not conflict with Peter's Login Redirect. Great simple plugins that "
+"work together!"
+msgstr ""
+"Comme cité plus haut, Simple Login SC est simplement une extension de "
+"connexion. Mais si vous avez besoin de rediriger vos utilisateur sur "
+"connexion, nous vous suggérons d'utiliser <a href=\"https://wordpress.org/"
+"plugins/peters-login-redirect/\" target=\"_blank\">Peter's Login Redirect</"
+"a> qui redirige selon l'utilisateur, le rôle...<br />Et Simple Login SC "
+"n'entre pas en conflit avec Peter's Login Redirect. De grandes et simples "
+"extensions qui travaillent ensemble!"
+
+# @ slsc
+#: simple_login_sc.php:91
+msgid "Styling"
+msgstr "Styliser"
+
+# @ slsc
+#: simple_login_sc.php:92
+msgid ""
+"If your theme does not style the login CSS class of WordPress or does not "
+"have a Custom CSS option, you can use a plugin like <a href=\"https://"
+"wordpress.org/plugins/simple-custom-css/\" target=\"_blank\">Simple Custom "
+"CSS</a>."
+msgstr ""
+"Si votre thème ne stylise pas les classes CSS de connexion de WordPress ou "
+"n'a pas d'option de CSS personnalisés, vous pouvez utiliser une extension "
+"comme <a href=\"https://wordpress.org/plugins/simple-custom-css/\" target="
+"\"_blank\">Simple Custom CSS</a>."
+
+# @ slsc
+#: simple_login_sc.php:93
+msgid "The CSS class you can customize are:"
+msgstr "Les classes CSS que vous pouvez personnaliser sont; "
+
+# @ slsc
+#: simple_login_sc.php:105
+msgid "Have a login fun!"
+msgstr "Connectez vous avec bonheur!"

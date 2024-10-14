@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'flk-icons';
+    src: url('../fonts/filkers-icons.eot') format('embedded-opentype'),
+    url('../fonts/filkers-icons.woff') format('woff'),
+    url('../fonts/filkers-icons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flk-icon:before {
+    display: inline-block;
+    font-family: 'flk-icons';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.flk-icon.flk-featured:before {
+    content: '\0041';
+}
+
+.flk-icon.flk-folder:before {
+    content: '\0042';
+}
+
+.flk-icon.flk-handpicked:before {
+    content: '\0043';
+}
+
+.flk-icon.flk-new:before {
+    content: '\0044';
+}
+
+.flk-icon.flk-related:before {
+    content: '\0045';
+}
+
+.flk-icon.flk-sales:before {
+    content: '\0046';
+}

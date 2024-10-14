@@ -1,0 +1,38 @@
+.post-type-ctabox div#major-publishing-actions {
+    display: none;
+}
+.post-type-ctabox div#misc-publishing-actions {
+    display: none;
+}
+.post-type-ctabox a#post-preview {
+    display: none;
+}
+.post-type-ctabox div#minor-publishing-actions {
+    min-height: 40px;
+}
+.post-type-ctabox input#save-post {
+    background-color: #0073aa;
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.post-type-ctabox span.post-state {
+    display: none;
+}
+.post-type-ctabox .launcedState {
+
+}
+.post-type-ctabox .image_conatiner{
+	 height: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.post-type-ctabox a#launcce_cta_box_template_preview {
+    float: right;
+    position: inherit;
+    margin-top: -50px;
+    background-color: #0073aa;
+    color: white;
+    padding: 10px;
+}

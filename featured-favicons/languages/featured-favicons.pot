@@ -1,0 +1,66 @@
+# Copyright (C) 2015 Featured Favicons
+# This file is distributed under the same license as the Featured Favicons package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Featured Favicons 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/featured-"
+"favicons\n"
+"POT-Creation-Date: 2015-09-19 05:36:06+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: featured-favicons.php:119
+msgid "Favicons"
+msgstr ""
+
+#: featured-favicons.php:124
+msgid "Default favicon"
+msgstr ""
+
+#: featured-favicons.php:128
+msgid "Use as default featured image"
+msgstr ""
+
+#: featured-favicons.php:135
+msgid "Settings"
+msgstr ""
+
+#: featured-favicons.php:151
+msgid "Select a favicon"
+msgstr ""
+
+#: featured-favicons.php:196
+msgid ""
+"Check this option if you also want to use that image as the default featured "
+"image."
+msgstr ""
+
+#: featured-favicons.php:204
+msgid "Favicons Options"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Featured Favicons"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://vdvn.me/pga"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A plugin that uses the featured image in your posts as a favicon for that "
+"post."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Claude Vedovini"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://vdvn.me/"
+msgstr ""

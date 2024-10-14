@@ -1,0 +1,101 @@
+/*wp-admin-theme*/
+
+
+@font-face {
+	font-family: 'yekan';
+	src: url('fonts/WebYekan.eot');
+	src: url('fonts/WebYekan.woff') format('woff'), url('fonts/WebYekan.ttf') format('truetype'), url('fonts/WebYekan.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;}
+
+@font-face {
+	font-family: 'nazanin';
+	src: url('fonts/BNazanin.eot');
+	src: url('fonts/BNazanin.woff') format('woff'), url('fonts/BNazanin.ttf') format('truetype'), url('fonts/BNazanin.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;}
+
+.about-wrap h1 {
+font-family: 'yekan';}
+
+.about-wrap h3 {
+font-family: 'yekan';
+font-size :29px;}
+
+html .mceContentBody {
+font-family :tahoma; }
+.welcome-panel h4 {
+font-size: 24px;
+font-family: 'nazanin';}
+
+h1, h2, h3, h4, h5, h6 {
+font-weight : 100 ;}
+
+.about-wrap .pw-badge {
+position: absolute;
+top: 0;
+left: 0; }
+
+.wrap h2 {
+font-family:'yekan';
+font-size:30px;}
+
+#adminmenu a.menu-top, #adminmenu .wp-submenu-head{
+font-size: 13px;}
+h3 {
+font-size: 20px;
+margin: 1em 0;
+font-family: 'yekan';}
+
+.form-table th, .wrap .add-new-h2, .wrap .add-new-h2:active,
+.themes-php .theme-search,.theme-browser .theme .theme-name,
+.about-wrap h2 .nav-tab-active,h2 .nav-tab,a.rsswidget
+{
+font-weight:100;
+}
+.add-new-h2,.theme-browser .theme.active .theme-name span { 
+font-family:tahoma;
+font-size:13px;
+}
+.pw-badge {
+padding-top: 142px;
+height: 50px;
+width: 173px;
+color: #fafafa;
+font-weight: 100;
+text-align: center;
+margin: 0 -5px;
+background: url('img/badge.png') no-repeat;font-family: 'yekan';
+font-size: 19px; }
+
+#poststuff h3, .metabox-holder h3
+{ font-size:18px;}
+
+.about-wrap .about-text {
+font-weight: 100;
+line-height: 1.6em;
+font-size: 25px;
+font-family: 'nazanin';
+}
+#dashboard_right_now .versions .b, #post-status-display, #post-visibility-display, #adminmenu .wp-submenu li.current, #adminmenu .wp-submenu li.current a, #adminmenu .wp-submenu li.current a:hover, .media-item .percent, .plugins .name, #pass-strength-result.strong, #pass-strength-result.short, #ed_reply_toolbar #ed_reply_strong, .item-controls .item-order a, .feature-filter .feature-name {
+font-weight:bold;}
+
+.themes-php .theme-count { 
+font-family:arial;}
+
+#url-field , #new-post-slug{
+direction: ltr;
+}
+
+strong, b { 
+font-weight:bold;}
+
+h2 .nav-tab {
+ font-size:17px; }
+ 
+code 
+{
+line-height:24px;}
+
+#template textarea{ 
+direction :ltr; }

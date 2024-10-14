@@ -1,0 +1,24 @@
+{
+  "name": "jumprock_packages/avacy",
+  "type": "wordpress-muplugin",
+  "description": "Bundle of Dependencies for handling images in WP projects",
+  "homepage": "http://jumpgroup.it",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jumpgroup\\Avacy\\": "src/"
+    }
+  },
+  "require-dev": {
+    "rector/rector": "^0.18.4",
+    "spatie/ray": "^1.41"
+  }
+}

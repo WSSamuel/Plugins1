@@ -1,0 +1,33 @@
+.drop .nav li {
+	/*padding: 2px 5px 5px 5px;*/
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+.drop .nav li a {
+	padding: 5px;
+	text-decoration: none;
+	color: #2583ad;
+}
+.drop .nav .selected {
+	background-color: #FFFFFF;
+	color: #d54e21;
+	padding: 0px;
+	padding-bottom: 1px;
+	/*padding: 5px 5px 6px 5px;*/
+	/*margin-right: 5px;*/
+	display: inline;
+	border: 1px solid #c6d9e9;
+	border-bottom: 0px;
+}
+.drop .nav .selected a {
+	padding: 5px;
+	text-decoration: none;
+	color: #d54e21;
+}
+.drop .content .bookmarks img {
+	border: 0px;
+	margin: 0px;
+	vertical-align: baseline;
+	/*margin: 2px;*/
+}

@@ -1,0 +1,29 @@
+/* CSS Document */
+#ad_divRight {
+overflow: hidden;
+border:2px solid #3c95d9;
+background-color: #fff;
+right: 0px;
+position:fixed; 
+top:5%; 
+margin-left:0px; 
+float:Right;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+background-color:#ffffff;
+padding:0 0 2px 0;
+z-index:10;}
+#ad_divLeft {
+overflow: hidden;
+border:2px solid #3c95d9;
+background-color: #fff;
+left: 0px;
+position:fixed; 
+top:5%; 
+margin-Right:0px; 
+float:Left;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+background-color:#ffffff;
+padding:0 0 2px 0;
+z-index:10;}

@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Daily Proverb\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-08 08:31-0500\n"
+"PO-Revision-Date: Mon Feb 15 2016 13:33:23 GMT-0800 (PST)\n"
+"Last-Translator: admin <lightofhopeukrchurch@gmail.com>\n"
+"Language-Team: \n"
+"Language: Ukrainian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Loco-Target-Locale: uk_UA"
+
+#: libs/html/admin.verses.html.php:13
+msgid "Daily Verses"
+msgstr "Щоденний вірші"
+
+#: libs/html/admin.verses.html.php:18 libs/php/functions.php:170
+msgid "Daily Chapter"
+msgstr "Щоденний розділ "
+
+#: libs/html/admin.verses.html.php:19
+msgid "Verse#"
+msgstr "Номер вірша"
+
+#: libs/html/admin.verses.html.php:20
+msgid "Verse"
+msgstr "Вірш"
+
+#: libs/html/admin.verses.html.php:31
+msgid "Reset"
+msgstr "Скинути"
+
+#: libs/html/admin.version.html.php:5 libs/php/admin.php:24
+msgid "Versions"
+msgstr "Версії"
+
+#: libs/html/admin.version.html.php:10
+msgid "Current Version"
+msgstr "Поточна версія"
+
+#: libs/html/admin.version.html.php:24
+msgid "The Book of Proverbs"
+msgstr "Книга \"Приповісті\""
+
+#: libs/html/admin.version.html.php:31 libs/html/admin.version.html.php:32
+#: libs/html/admin.version.html.php:33 libs/html/admin.version.html.php:34
+#: libs/html/admin.version.html.php:35 libs/html/admin.version.html.php:36
+#: libs/html/admin.version.html.php:37 libs/html/admin.version.html.php:38
+#: libs/html/admin.version.html.php:39 libs/html/admin.version.html.php:40
+#: libs/html/admin.version.html.php:41 libs/html/admin.version.html.php:42
+#: libs/html/admin.version.html.php:43 libs/html/admin.version.html.php:44
+#: libs/html/admin.version.html.php:45 libs/html/admin.version.html.php:46
+#: libs/html/admin.version.html.php:47 libs/html/admin.version.html.php:48
+#: libs/html/admin.version.html.php:49 libs/html/admin.version.html.php:50
+#: libs/html/admin.version.html.php:51 libs/html/admin.version.html.php:52
+#: libs/html/admin.version.html.php:53 libs/html/admin.version.html.php:54
+#: libs/html/admin.version.html.php:55 libs/html/admin.version.html.php:56
+#: libs/html/admin.version.html.php:57 libs/html/admin.version.html.php:58
+#: libs/html/admin.version.html.php:59 libs/html/admin.version.html.php:60
+#: libs/html/admin.version.html.php:61 libs/php/functions.php:190
+msgid "Chapter"
+msgstr "Розділ"
+
+#: libs/html/admin.version.html.php:78
+msgid "\"Proverbs\" In Your Own Language"
+msgstr "\"Приповісті\" вашою мовою"
+
+#: libs/html/admin.version.html.php:81
+msgid "Save "
+msgstr "Зберегти"
+
+#: libs/html/admin.version.html.php:81
+msgid "Saved"
+msgstr "Збережено"
+
+#: libs/html/credits.php:2
+msgid "Credits"
+msgstr "Титри "
+
+#: libs/php/ajax.php:70
+msgid "Something went worng, please try again! Error: JSON file not found."
+msgstr "Щось пішло не так, спробуйте ще раз! Помилка: JSON файл не знайдено."
+
+#: libs/php/ajax.php:100
+msgid "Verse updated successfully!"
+msgstr "Вірш успішно оновлений!"
+
+#: libs/php/ajax.php:108
+msgid "Verses successfully reset!"
+msgstr "Вірші успішно скинуті!"
+
+#: libs/php/ajax.php:127
+msgid "Successfully Saved!"
+msgstr "Успішно збережено!"
+
+#: libs/html/admin.verses.html.php:5 libs/html/admin.version.html.php:5
+#: libs/php/admin.php:20
+msgid "Daily Proverb"
+msgstr "Daily Proverb"
+
+#: libs/html/admin.verses.html.php:5 libs/html/admin.version.html.php:5
+msgid "Light"
+msgstr "Light"
+
+#: libs/html/admin.verses.html.php:5 libs/php/admin.php:22
+msgid "Verses"
+msgstr "Вірші"

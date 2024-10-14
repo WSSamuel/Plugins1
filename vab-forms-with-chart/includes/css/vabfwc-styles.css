@@ -1,0 +1,80 @@
+#anketa label{
+	cursor:pointer;
+	display:inline-block;
+	width:100%;
+}
+#anketa ul input{
+	margin-right:4px;
+}
+#anketa ul input[type=radio]{
+	width:15px;
+}
+#anketa ul li{
+	list-style:none;
+	line-height:40px;
+}
+.VABFWC_file{
+	width:0.1px;
+	height:0.1px;
+	opacity:0;
+	overflow:hidden;
+	position:absolute;
+	z-index:-1;
+}
+.VABFWC_fileL{
+	text-align:center;
+	cursor:pointer;
+	font:14px/50px Tahoma;
+	transition:all 0.18s ease-in-out;
+	/* outline:1px solid #A8A8A8; */
+}
+.VABFWC_fileL:hover{
+	color:#FFF;
+	background:#A8A8A8;
+}
+.vabfwc_spoiler-wrap{
+	background:#000;
+	color:#FFF;
+	width:99%;
+	border-color:#29755f;
+	border-radius:4px;
+	border-style:solid;
+	border-width:1px 1px 1px 2px;
+	margin:0px;
+}
+.vabfwc_spoiler-head{
+	text-align:center;
+	border-radius:4px;
+	width:100%;
+	font-size:16px;
+	line-height:15px;
+	margin-left:0px;
+	cursor:pointer;
+	padding:4px;
+}
+.vabfwc_spoiler-body,
+.formInput,
+.FormSContact input[type="text"].formInput,
+.FormSContact input[type="checkbox"].formInput{
+	display:none;
+}
+.vabfwc_spoiler-body,
+.vabfwc_spoiler-body input{
+	color:#FFF;
+	border-radius:4px;
+	border:1px solid #29755f;
+	border-top:1px solid #29755f;
+	line-height:20px;
+	padding:1px 6px 2px;
+	max-width:98%;
+	margin-left:0px;
+	overflow:auto;
+}
+.vabfwc_spoiler-body input[type="submit"]{
+	background:#000;
+}
+.vabfwc_spoiler-body a{
+	color:#FFF!important;
+	text-decoration:underline;
+	cursor:pointer;
+}

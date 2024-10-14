@@ -1,0 +1,45 @@
+/* CSS Document */
+<style type="text/css" media="screen">
+#p2c-navigation{
+	padding: 30px 0px 10px 0px;
+	width:100%;
+	align:right;
+	margin:0 auto;
+
+}
+.p2c-nav{
+	width:100%;
+	border-top:1px solid #cccccc;
+	padding-top:2px;
+	color: #aaaaaa;
+	text-align:right;
+}
+.p2c-page-of{
+	color: #aaaaaa;
+}
+.p2c-nav li{
+	display: inline;
+	line-height:150%;
+
+
+}
+.p2c-nav li a{
+	color: #aaaaaa;
+	display: block inline;
+}
+.p2c-nav li p{
+	display: inline;
+}
+.p2c-nav a:hover{
+	color: #666666;
+}
+.p2c-currentpage{
+	color:#666666;
+	font-weight:bold;
+	background: #eeeeee;
+	border: 1px solid #cccccc;
+	display: block inline;
+	padding: 3px 5px 3px 5px;
+}
+</style>
+

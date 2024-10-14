@@ -1,0 +1,21 @@
+.sc-ranking {
+	margin: 10px;
+	font-size: 48px;
+	color: #38E7E0;
+}
+
+.sc-dashboard {
+	background-color: #3f4652;
+	width: 300px;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+
+.sc-rank-title {
+	color: #FFFFFF;
+}

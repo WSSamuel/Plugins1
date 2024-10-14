@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+
+.shortcodes{background:#f4f4f4;padding:55px 0px 50px 0px;}
+.codes-head{font:normal 20px 'Arvo', serif;margin:0px 0px 20px 0px;text-transform:uppercase;}
+.headings .normal-text{margin:7px 0px 20px 0px;}
+.headings span{color: #46c384}
+.headings h4{font-size:18px;margin: 24px 0px 0px 0px;}
+.headings h5{font-size:15px;margin: 30px 0px 0px 0px;}
+.column-detail{margin: 1px 0px 46px 0px;}
+.shortcodes hr{border-color:#e1e1e1;margin:15px 0px 55px 0px;}
+.column-detail .codes-head{margin-bottom:10px;}
+.accordion {background: #FFF;border-bottom:#e1e1e1 solid 1px;}
+.typography .accordion{margin-top:24px;}
+.accordion-toggle {font:normal 16px 'Arvo', serif;padding:17px;cursor: pointer;border-bottom:#e1e1e1 solid 1px; background: #46c384;color: #FFF;display:block;text-decoration:none}
+.accordion-toggle:focus{text-decoration:none; color:white;}
+.collapsed:focus{color:#333333;}
+.accordion-toggle:hover{text-decoration:none;background: #46c384;color: #FFF}
+.sales-products .shoping-head img{margin:-6px 0px 0px -17px;}
+.accordion-toggle i{float:right;border-left:white solid 1px;display: block;height: 53px;margin: -17px 0px 0px 0px;padding: 20px 3px 17px 20px;font-size:12px;}
+.collapsed{background: #FFF;color: #333333;}
+.collapsed i{border-color:transparent;}
+.collapsed .fa-chevron-down:before{content: "\f054";}
+.accordion-inner .normal-text{padding:10px 18px 10px 18px;border-bottom:#e1e1e1 solid 1px;}
+.buttons{margin-bottom:16px;}
+.buttons button{color:#FFFFFF;text-transform:capitalize;font-size:14px;border:none;padding:5px 12px 5px 12px;border-radius:4px;margin:5px 0px 30px 0px;}
+.buttons button:nth-of-type(1){background:#000000;}
+.buttons button:nth-of-type(2){background:#d8cd1f;}
+.buttons button:nth-of-type(3){background:#3253b0;}
+.buttons button:nth-of-type(4){background:#ac32b0;}
+.buttons button:nth-of-type(5){background:#b03232;}
+.buttons button:hover{background:#46c384;transition:0.3s;}
+.lists{margin-bottom:25px;}
+.lists .normal-text i{color:#46c384;margin-right:13px;}
+.toggles{padding-bottom:50px;}
+.btn{
+	border: medium none;
+    border-radius: 4px;
+    color: #ffffff !important;
+    font-size: 14px;
+    margin: 5px 0 30px;
+    padding: 5px 12px;
+    text-transform: capitalize;
+}
+.btn:hover{
+	background: none repeat scroll 0 0 #46c384;
+    transition: all 0.3s ease 0s;
+}
+.btn-black{
+	background-color:#000000;
+}
+.btn-yellow{
+	background:none repeat scroll 0 0 #d8cd1f;
+}
+.btn-purple{
+	background: none repeat scroll 0 0 #3253b0;
+}
+.btn-pink{
+	background: none repeat scroll 0 0 #ac32b0;
+}
+.btn-red{
+	background: none repeat scroll 0 0 #b03232;
+}
+
+#cssmenu {
+
+  background: #fff;
+
+}
+
+#cssmenu > ul > li > a {
+  font: normal 16px 'Arvo', serif;
+padding: 17px;
+cursor: pointer;
+border-bottom: #e1e1e1 solid 1px;
+background: #FFF;
+color: #333333;
+display: block;
+text-decoration: none;
+}
+
+
+#cssmenu > ul > li.active > a {
+  background: #46c384;
+  color: #fff;
+}
+#cssmenu > ul > li > a i{float:right;border-left:#e1e1e1 solid 1px;display:block;height: 53px;margin: -17px 0px 0px 0px;padding: 20px 3px 17px 20px;}
+#cssmenu > ul > li.active > a  .fa-plus:before{content: "\f068";}
+#cssmenu > ul > li.active > a i{border-color:#FFFFFF;}
+#cssmenu ul ul {
+  display: none;
+}
+#cssmenu ul ul li p {
+border-bottom: #e1e1e1 solid 1px;
+padding:20px;
+}
+#cssmenu ul, #cssmenu ol{
+	list-style:outside none none;
+}
+#cssmenu ul li::before{
+	content:none !important;
+}
+

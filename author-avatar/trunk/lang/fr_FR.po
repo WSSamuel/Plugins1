@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: author_avatar\n"
+"POT-Creation-Date: 2013-12-17 18:57+0800\n"
+"PO-Revision-Date: 2013-12-17 18:58+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: views/admin.php:19
+msgid "Additional User Profile Picture"
+msgstr "Nouvelle Image pour votre profil"
+
+#: views/admin.php:24
+msgid "A custom image per user"
+msgstr "Une image different pour chaque utilisateur"
+
+#: views/admin.php:31
+msgid "Upload Image"
+msgstr "Ajouter une image"
+
+#: views/admin.php:32
+msgid "Upload an additional image for your user profile."
+msgstr "Ajouter une image supplémentaire pour votre profil"

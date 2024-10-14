@@ -1,0 +1,61 @@
+/* WordPress Alert Bar
+------------------------------------------- 
+
+Table of contents
+	- WordPress Alert Bar
+	- Media Queries
+
+------------------------------------------- */
+
+/* WordPress Alert Bar
+-------------------------------------------- */
+
+.mbwpab-alert-bar {
+	padding: 16px 0;
+	position: relative;
+}
+
+.mbwpab-alert-bar .wrap {
+    max-width: 95%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.mbwpab-alert-title {
+    font-weight: bold;
+    margin: 0;
+}
+
+.mbwpab-alert-message {
+    margin: 0;
+}
+
+.mbwpab-alert-cta {
+    font-weight: bold;
+}
+
+.mbwpab-alert-closer {
+	cursor: pointer;
+	position: absolute;
+    right: 2%;
+	top: 8px;
+}
+
+/* Media Queries
+------------------------------------------- */
+
+@media only screen and (max-width: 415px) {
+
+	.mbwpab-alert-bar .wrap {
+		max-width: 90%;
+	}
+
+	.mbwpab-alert-bar.mbwpab-alert-bar-has-close .wrap {
+		padding-right: 5%;
+	}
+
+	.mbwpab-alert-closer {
+		right: 5%;
+	}
+
+}

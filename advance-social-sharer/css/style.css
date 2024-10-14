@@ -1,0 +1,42 @@
+#fcbk_share {
+	clear:both;
+	height: 40px;
+}
+.fcbk_button {
+	float:left;
+	margin-right: 5px;
+	position: relative;
+}
+.fcbk_button.linkedin {
+	top:6px;
+}
+.fcbk_button.googleplus {
+	top:-4px;
+}
+.fcbk_button a {
+	height: 40px;
+    display: block;
+}
+.fcbk_like {
+	margin-right: 5px;
+	float: left;
+    position: relative;
+    top: -3px;
+}
+.fb_edge_widget_with_comment span {
+	width: 450px !important;
+}
+
+#adminmenu #toplevel_page_wss_plugins:hover div.wp-menu-image, #adminmenu #toplevel_page_wss_plugins.wp-has-current-submenu div.wp-menu-image {
+	background: url("../images/icon_small.png") no-repeat scroll center center transparent;
+}	
+.wrap #icon-options-general.icon32-wss {
+	background: url("../images/icon.png") no-repeat scroll left top transparent;
+}
+
+#toplevel_page_wss_plugins .wp-submenu .wp-first-item {
+	display:none;
+}
+iframe{
+	margin-bottom:0 !important;	
+}

@@ -1,0 +1,390 @@
+# Copyright (C) 2015 Responsive Investment Calculator
+# This file is distributed under the same license as the Responsive Investment Calculator package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Responsive Investment Calculator 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/responsive-"
+"investment-calculator\n"
+"POT-Creation-Date: 2015-11-23 02:56:04+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: adm/function-ric-get-settings-definitions.php:12
+msgid "Currency Settings"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:13
+msgid "Set the display format and symbol for the currency."
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:17
+msgid "Currency Symbol"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:26
+msgid "Currency Code"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:35
+msgid "Currency Format"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:40
+msgid ""
+"Use the tags {currency}, {amount} and {code} to structure how currency is "
+"displayed in the results. Spaces are allowed."
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:45
+msgid "Thousands Separator"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:59
+msgid "Decimal Separator"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:72
+msgid "Decimal Places"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:81
+msgid "Indian System"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:95
+msgid "Input Settings"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:96
+msgid "Choose settings for the calculator inputs."
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:100
+#: inc/array-default-options.php:31
+msgid "Compounding Period"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:110
+msgid "Annual Compounding"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:120
+msgid "Quarterly Compounding"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:130
+msgid "Monthly Compounding"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:140
+msgid "Daily Compounding"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:150
+msgid "Investment Term Units"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:157
+msgid "Years"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:158
+msgid "Months"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:168
+msgid "Input Labels"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:169
+msgid "Customize the labels on the calculator inputs."
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:173
+msgid "Principal Label"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:182
+msgid "Interest Rate Label"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:191
+msgid "Investment Term Label"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:200
+msgid "Compounding Period Label"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:209
+msgid "Submit Label"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:222
+msgid "Default Values"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:223
+msgid "Set default values for the calculator inputs."
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:227
+msgid "Principal Default"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:236
+msgid "Interest Rate Default"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:245
+msgid "Term Default"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:254
+msgid "Compounding Period Default"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:260
+#: inc/class-ric-form.php:130
+msgid "Annually"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:261
+#: inc/class-ric-form.php:134
+msgid "Quarterly"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:262
+#: inc/class-ric-form.php:138
+msgid "Monthly"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:263
+#: inc/class-ric-form.php:142
+msgid "Daily"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:273
+msgid "Input Classes"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:274
+msgid ""
+"Add CSS classes to override styles or to hook into your theme's styling."
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:278
+msgid "Principal Class"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:287
+msgid "Interest Rate Class"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:296
+msgid "Investment Term Class"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:305
+msgid "Compounding Period Class"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:314
+msgid "Submit Class"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:327
+msgid "CSS Styling"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:328
+msgid ""
+"Toggle layout and styling. Remove styling to prevent CSS from loading (but "
+"it won't be responsive any more)."
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:332
+msgid "CSS"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:342
+msgid "Responsive Layout"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:352
+msgid "Theme"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:359
+msgid "None. Use my theme's default styling"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:360
+msgid "Light Theme"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:361
+msgid "Dark Theme"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:367
+msgid "Select Box Styling"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:377
+msgid "Select Box Adjustment"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:392
+msgid "Results Settings"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:393
+msgid "Choose the amount of information to display in the results."
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:397
+msgid "Results Display"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:403
+msgid "Show the Interest Accrued only"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:404
+msgid "Show the Interest Accrued with a toggle to view the Summary text"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:405
+msgid "Show both the Interest Accrued and the Summary text"
+msgstr ""
+
+#: adm/function-ric-get-settings-definitions.php:406
+msgid "Show the Summary text only"
+msgstr ""
+
+#: adm/partial-settings-page.php:11
+msgid ""
+"Thank you for using Responsive Investment Calculator. Add the calculator "
+"widget from the Widgets page, or add it to a page or post using the "
+"shortcode %1$s or %2$s."
+msgstr ""
+
+#: inc/array-default-options.php:28
+msgid "Principal Amount"
+msgstr ""
+
+#: inc/array-default-options.php:29
+msgid "Interest Rate"
+msgstr ""
+
+#: inc/array-default-options.php:30
+msgid "Investment Term"
+msgstr ""
+
+#: inc/array-default-options.php:32
+msgid "Calculate"
+msgstr ""
+
+#: inc/class-ric-form.php:248
+msgid "months"
+msgstr ""
+
+#: inc/class-ric-form.php:251
+msgid "years"
+msgstr ""
+
+#: inc/class-ric-widget.php:15
+msgid "Display a responsive investment calculator."
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Responsive Investment Calculator 1.0.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: inc/class-ric-widget.php:19
+msgid "Responsive Investment Calculator"
+msgstr ""
+
+#: inc/class-ric-widget.php:28
+msgid "Calculate Investment Interest"
+msgstr ""
+
+#: inc/class-ric-widget.php:35
+msgid "Title"
+msgstr ""
+
+#: inc/function-ric-get-localization.php:34
+msgid "Please enter the principal amount."
+msgstr ""
+
+#: inc/function-ric-get-localization.php:35
+msgid "Please enter an interest rate."
+msgstr ""
+
+#: inc/function-ric-get-localization.php:36
+msgid "Please enter the term."
+msgstr ""
+
+#: inc/function-ric-get-localization.php:40
+msgid "Interest Accrued: %1$s"
+msgstr ""
+
+#: inc/function-ric-get-localization.php:44
+msgid ""
+"For an investment term of %1$s on %2$s at a rate of %3$s%%, your accrued "
+"interest is %4$s."
+msgstr ""
+
+#: inc/function-ric-get-localization.php:50
+msgid "one month"
+msgstr ""
+
+#: inc/function-ric-get-localization.php:52
+msgid "%1$s months"
+msgstr ""
+
+#: inc/function-ric-get-localization.php:55
+msgid "one year"
+msgstr ""
+
+#: inc/function-ric-get-localization.php:57
+msgid "%1$s years"
+msgstr ""
+
+#: inc/function-ric-get-localization.php:60
+msgid "one year and one month"
+msgstr ""
+
+#: inc/function-ric-get-localization.php:62
+msgid "one year and %1$s months"
+msgstr ""
+
+#: inc/function-ric-get-localization.php:66
+msgid "%1$s year and one month"
+msgstr ""
+
+#: inc/function-ric-get-localization.php:70
+msgid "%1$s year and %2$s months"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://liddweaver.com/responsive-mortgage-calculator/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add a responsive investment calculator widget or use the shortcode "
+"[investmentcalculator] or [ric]. Use it to calculate interest accrued on "
+"principal."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "liddweaver"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://liddweaver.com"
+msgstr ""

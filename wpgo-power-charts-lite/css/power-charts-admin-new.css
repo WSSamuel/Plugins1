@@ -1,0 +1,86 @@
+/* Power Charts Admin New Styles */
+
+/* Styles for creating new chart only */
+.post-new-php #publish {
+	font-size: 16px;
+}
+
+#wpgo_power_charts_cpt_data, #wpgo_power_charts_cpt_js, #wpgo_power_charts_cpt_config_js {
+	font-size: 15px;
+	font-family: courier;
+}
+
+#pc-create-chart {
+	text-align: center;
+	margin: 20px;
+}
+
+#wpgo-power-charts-type label > input[type=radio]:checked + div > img {
+	opacity: 1;
+	border: 2px rgba(213, 78, 33, 0.6) solid
+}
+
+#wpgo-power-charts-type label > input[type=radio]:checked ~ div.pc-type-txt {
+	font-weight: bold;
+}
+
+#wpgo-power-charts-type label > input[type=radio] + div > img {
+	opacity: 0.5;
+	width: 257px;
+	height: 182px;
+	transition: 250ms all;
+	border: 2px #fff solid;
+}
+
+#pc-type-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.pc-type-img {
+	margin: 10px 10px 0 10px;
+}
+
+.pc-type-txt {
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 3px;
+}
+
+/* HIDE ELEMENTS */
+
+/* Hide the radio button controls */
+#wpgo-power-charts-type input[type=radio] {
+	display: none;
+}
+
+/* Hide all meta boxes by default */
+.meta-box-sortables > div.postbox {
+	display: none;
+}
+
+#wpgo-power-charts-type {
+	display: block;
+}
+
+/* Hide 'Screen Options' tab */
+#screen-meta-links {
+	display: none;
+}
+
+/* Hide dotted box on right hand side */
+/* Note: when I add the info box on the right with links to pro, I may not need this. */
+#side-sortables {
+	display: none;
+}
+
+/* Hide title */
+#titlewrap {
+	display: none;
+}
+
+/* Reduce margin between chart type metabox and title */
+#post-body-content {
+	margin-bottom: 5px;
+}

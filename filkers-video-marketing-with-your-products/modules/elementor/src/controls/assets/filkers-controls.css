@@ -1,0 +1,8 @@
+div.elementor-control-field-description.filkers-control-error, .filkers-control-error {
+    color: red;
+}
+
+.filkers-control-column {
+    display: flex;
+    flex-direction: column;
+}

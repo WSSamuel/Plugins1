@@ -1,0 +1,59 @@
+# Translation of Featured Favicons in Dutch
+# This file is distributed under the same license as the Featured Favicons package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-09-28 16:21:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Featured Favicons\n"
+
+#: featured-favicons.php:119
+msgid "Favicons"
+msgstr "Favicons"
+
+#: featured-favicons.php:124
+msgid "Default favicon"
+msgstr "Standaard favicon"
+
+#: featured-favicons.php:128
+msgid "Use as default featured image"
+msgstr "Gebruik het standaard gekenmerkt als"
+
+#: featured-favicons.php:135
+msgid "Settings"
+msgstr "Instellingen"
+
+#: featured-favicons.php:151
+msgid "Select a favicon"
+msgstr "Selecteer een favicon"
+
+#: featured-favicons.php:196
+msgid "Check this option if you also want to use that image as the default featured image."
+msgstr "Controleer deze optie als u wilt ook dat beeld te gebruiken als standaard aanbevolen afbeelding."
+
+#: featured-favicons.php:204
+msgid "Favicons Options"
+msgstr "Favicons Opties"
+
+#. Plugin Name of the plugin/theme
+msgid "Featured Favicons"
+msgstr "Aanbevolen Favicons"
+
+#. Plugin URI of the plugin/theme
+msgid "http://vdvn.me/pga"
+msgstr "http://vdvn.me/pga"
+
+#. Description of the plugin/theme
+msgid "A plugin that uses the featured image in your posts as a favicon for that post."
+msgstr "Een plugin die het gekenmerkte afbeelding gebruikt in je berichten als favicon voor die post."
+
+#. Author of the plugin/theme
+msgid "Claude Vedovini"
+msgstr "Claude Vedovini"
+
+#. Author URI of the plugin/theme
+msgid "http://vdvn.me/"
+msgstr "http://vdvn.me/"
